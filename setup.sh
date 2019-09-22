@@ -24,7 +24,8 @@ tlmgr install \
   biber \
   biblatex \
   latexmk \
-  texliveonfly
+  texliveonfly \
+  fduthesis
 
 echo "==> Clean up"
 rm -rf \
