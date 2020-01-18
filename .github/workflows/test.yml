@@ -81,6 +81,7 @@ jobs:
           PUBLISH_DIR: ./test
         with:
           emptyCommits: true
+          keepFiles: true
       - name: Upload
         uses: actions/upload-artifact@master
         with:
