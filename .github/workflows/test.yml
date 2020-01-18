@@ -1,8 +1,5 @@
 name: Test Github Action
-on:
-  push:
-  schedule:
-    - cron: '0 0 1 * *'
+on: [push, pull_request]
 jobs:
   test:
     runs-on: ubuntu-latest
@@ -24,21 +21,49 @@ jobs:
         with:
           root_file: biblatex.tex
           working_directory: test/
-          extra_packages: biblatex-ieee
+      - name: Compile LaTeX document with eps figure
+        uses: ./
+        with:
+          root_file: eps.tex
+          working_directory: test/
       - name: Compile LaTeX document with minted
         uses: ./
         with:
           root_file: minted.tex
           working_directory: test/
-          extra_system_packages: py-pygments
           args: "-pdf -shell-escape -file-line-error -interaction=nonstopmode"
+      - name: Compile LaTeX document with arara and graphviz
+        uses: ./
+        with:
+          root_file: graphviz.tex
+          working_directory: test/
+          compiler: arara
+          args: "--verbose"
+      # https://github.com/xu-cheng/latex-action/issues/16
+      - name: Test Action with Github Default Template
+        uses: ./
+        with:
+          # The root LaTeX file to be compiled
+          root_file: test/test.tex
+          # The working directory for the LaTeX engine
+          working_directory: # optional
+          # The LaTeX engine to be invoked
+          compiler: # optional, default is latexmk
+          # Extra arguments to be passed to the LaTeX engine
+          args: # optional, default is -pdf -file-line-error -interaction=nonstopmode
+          # [Deprecated] Install extra packages by tlmgr
+          extra_packages: # optional
+          # Install extra packages by apk
+          extra_system_packages: # optional
       - name: Check pdf files
         run: |
-          set -e
           file test/test.pdf | grep -q ' PDF '
           file test/math.pdf | grep -q ' PDF '
           file test/biblatex.pdf | grep -q ' PDF '
+          file test/eps.pdf | grep -q ' PDF '
           file test/minted.pdf | grep -q ' PDF '
+          file test/graphviz.pdf | grep -q ' PDF '
+          file test/abc.pdf | grep -q ' PDF '
       - name: Deploy
         uses: docker://peaceiris/gh-pages:v2.3.1
         env:
@@ -47,3 +72,9 @@ jobs:
           PUBLISH_DIR: ./test
         with:
           emptyCommits: true
+      - name: Upload
+        uses: actions/upload-artifact@master
+        with:
+          name: test
+          path: test
+        if: always()
