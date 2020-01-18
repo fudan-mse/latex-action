@@ -55,6 +55,14 @@ jobs:
           extra_packages: # optional
           # Install extra packages by apk
           extra_system_packages: # optional
+      - name: Test fduthesis
+        uses: ./
+        with:
+          root_file: test/fduthesis.tex
+          extra_packages: fduthesis
+          working_directory: test/
+          compiler: arara
+          args: "--verbose"
       - name: Check pdf files
         run: |
           file test/test.pdf | grep -q ' PDF '
@@ -64,6 +72,7 @@ jobs:
           file test/minted.pdf | grep -q ' PDF '
           file test/graphviz.pdf | grep -q ' PDF '
           file test/abc.pdf | grep -q ' PDF '
+          file test/fduthesis.pdf | grep -q ' PDF '
       - name: Deploy
         uses: docker://peaceiris/gh-pages:v2.3.1
         env:
