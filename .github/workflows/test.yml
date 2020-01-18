@@ -58,7 +58,7 @@ jobs:
       - name: Test fduthesis
         uses: ./
         with:
-          root_file: test/fduthesis.tex
+          root_file: fduthesis.tex
           extra_packages: fduthesis
           working_directory: test/
           compiler: arara
