@@ -14,8 +14,8 @@ script:
   - docker push "$DOCKER_USERNAME"/texlive-full
   - docker kill texlive-full || echo "texlive-full killed"
   - docker rm texlive-full || echo "texlive-full removed"
-  - docker-slim/docker-slim build "$DOCKER_USERNAME"/texlive-full
+  -  #docker-slim/docker-slim build "$DOCKER_USERNAME"/texlive-full
   - docker images
-  - docker ps | grep -q texlive-full.slim
-  - docker push "$DOCKER_USERNAME"/texlive-full.slim
-  - docker run --name latex-action --rm -v "/var/run/docker.sock":"/var/run/docker.sock" -v "$PWD":/root/workspace jefftian/texlive-full.slim:latest "fduthesis.tex" "/root/workspace/test" "arara" "--verbose" "fduthesis"
+  -  #docker ps | grep -q texlive-full.slim
+  -  #docker push "$DOCKER_USERNAME"/texlive-full.slim
+  -  #docker run --name latex-action --rm -v "/var/run/docker.sock":"/var/run/docker.sock" -v "$PWD":/root/workspace jefftian/texlive-full.slim:latest "fduthesis.tex" "/root/workspace/test" "arara" "--verbose" "fduthesis"
