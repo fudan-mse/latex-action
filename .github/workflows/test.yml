@@ -86,7 +86,7 @@ jobs:
           PUBLISH_BRANCH: gh-pages
           PUBLISH_DIR: ./test
         with:
-          emptyCommits: true
+          emptyCommits: false
           keepFiles: true
       - name: Upload
         uses: actions/upload-artifact@master
