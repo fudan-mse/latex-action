@@ -73,11 +73,12 @@ jobs:
           file test/graphviz.pdf | grep -q ' PDF '
           file test/abc.pdf | grep -q ' PDF '
           file test/fduthesis.pdf | grep -q ' PDF '
-      - name: Commit files
+      - name: Make changes
         run: |
-          #git config --local user.email "jeff.tian@outlook.com"
-          #git config --local user.name "Jeff Tian from Github Action"
-          #git add -A -f .
+          rm test/.gitignore
+          # git config --local user.email "jeff.tian@outlook.com"
+          # git config --local user.name "Jeff Tian from Github Action"
+          # git add -A -f .
           #git commit -sm "Automatically generated site" -a 
       - name: Deploy
         uses: docker://peaceiris/gh-pages:v2.3.1
