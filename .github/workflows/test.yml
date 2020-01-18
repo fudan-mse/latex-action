@@ -61,6 +61,7 @@ jobs:
           root_file: fduthesis.tex
           extra_packages: fduthesis
           working_directory: test/
+          compiler: arara
           args: "--verbose"
       - name: Check pdf files
         run: |
