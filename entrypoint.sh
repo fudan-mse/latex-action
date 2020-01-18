@@ -36,7 +36,10 @@ if [ -n "$extra_system_packages" ]; then
 fi
 
 if [ -n "$extra_packages" ]; then
-  warn "Input 'extra_packages' is deprecated. We now build LaTeX document with full TeXLive installed."
+  for pkg in $extra_packages; do
+    echo "Install $pkg by tlmgr"
+    tlmgr install "$pkg"
+  done
 fi
 
 if [ -n "$working_directory" ]; then
