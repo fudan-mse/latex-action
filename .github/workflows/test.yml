@@ -59,7 +59,6 @@ jobs:
         uses: ./
         with:
           root_file: fduthesis.tex
-          extra_packages: fduthesis
           working_directory: test/
           compiler: arara
           args: "--verbose"
@@ -73,13 +72,10 @@ jobs:
           file test/graphviz.pdf | grep -q ' PDF '
           file test/abc.pdf | grep -q ' PDF '
           file test/fduthesis.pdf | grep -q ' PDF '
-      - name: Make changes
+      - name: CNAME
         run: |
           rm test/.gitignore
-          # git config --local user.email "jeff.tian@outlook.com"
-          # git config --local user.name "Jeff Tian from Github Action"
-          # git add -A -f .
-          #git commit -sm "Automatically generated site" -a 
+          cp CNAME test/CNAME
       - name: Deploy
         uses: docker://peaceiris/gh-pages:v2.3.1
         env:
