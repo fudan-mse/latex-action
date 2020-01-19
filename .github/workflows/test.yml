@@ -87,8 +87,9 @@ jobs:
           PUBLISH_BRANCH: gh-pages
           PUBLISH_DIR: ./test
         with:
-          emptyCommits: false
+          emptyCommits: true
           keepFiles: true
+          commitMessage: ${{ github.event.head_commit.message }}
       - name: Upload
         uses: actions/upload-artifact@master
         with:
