@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1579433919 "test.tex" "test.pdf" "test" 1579433919
+["pdflatex"] 1579438684 "test.tex" "test.pdf" "test" 1579438684
   "/opt/texlive/texdir/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/opt/texlive/texdir/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/opt/texlive/texdir/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -17,9 +17,9 @@
   "/opt/texlive/texdir/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1577838486 4704442 49f428ba441b1cd61e4c82c3b736cf02 ""
   "/opt/texlive/texdir/texmf-var/web2c/pdftex/pdflatex.fmt" 1577838529 4292625 088bd6ba9657071de006d582d89eb614 ""
   "/opt/texlive/texdir/texmf.cnf" 1577838479 555 bd60ff59e4d560b42d96b004436f91d3 ""
-  "test.aux" 1579433919 1383 7a8c1b8ebc8578291ab2a62fb57f5a1b "pdflatex"
-  "test.tex" 1579433805 94 dd45b0ee8861f5c51c0f789ea0a655af ""
+  "test.aux" 1579438684 1383 7a8c1b8ebc8578291ab2a62fb57f5a1b "pdflatex"
+  "test.tex" 1579438584 94 dd45b0ee8861f5c51c0f789ea0a655af ""
   (generated)
-  "test.aux"
   "test.log"
   "test.pdf"
+  "test.aux"
