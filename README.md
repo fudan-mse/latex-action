@@ -74,7 +74,10 @@ The PDF file will be in the same folder as that of the LaTeX source in the CI en
 
 ```shell
 docker build -t jefftian/texlive-full .
-docker run --name latex-action --rm -v "/var/run/docker.sock":"/var/run/docker.sock" -v "$PWD":/root/workspace jefftian/texlive-full:latest "fduthesis.tex" "/root/workspace/test" "arara" "--verbose" "fduthesis"
+# macOS
+docker run --name latex-action --rm -v "/var/run/docker.sock":"/var/run/docker.sock" -v "$PWD":/root/workspace jefftian/texlive-full:latest "fduthesis.tex" "/root/workspace/test" "arara" "--verbose" ""
+# Windows
+docker run --name latex-action --rm -v "/var/run/docker.sock":"/var/run/docker.sock" -v "%cd%":/root/workspace jefftian/texlive-full:latest "fduthesis.tex" "/root/workspace/test" "arara" "--verbose" ""
 ```
 
 ## License
