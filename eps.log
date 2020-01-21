@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.1.1)  19 JAN 2020 12:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.1.1)  21 JAN 2020 12:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -84,7 +84,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 Package epstopdf Info: Source file: <./fig.eps>
-(epstopdf)                    date: 2020-01-19 12:56:24
+(epstopdf)                    date: 2020-01-21 12:31:02
 (epstopdf)                    size: 414 bytes
 (epstopdf)             Output file: <./fig-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=./fig-eps-converted-to.pdf
@@ -94,7 +94,7 @@ runsystem(repstopdf --outfile=./fig-eps-converted-to.pdf ./fig.eps)...executed
 safely (allowed).
 
 Package epstopdf Info: Result file: <./fig-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-01-19 12:58:15
+(epstopdf)                    date: 2020-01-21 12:33:06
 (epstopdf)                    size: 4310 bytes.
 <./fig-eps-converted-to.pdf, id=1, 138.5175pt x 14.0525pt>
 File: ./fig-eps-converted-to.pdf Graphic file (type pdf)
