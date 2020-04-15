@@ -1,4 +1,4 @@
-FROM xucheng/texlive-full:latest
+FROM docker.pkg.github.com/xu-cheng/latex-docker/texlive-full:latest
 
 COPY \
   LICENSE \
