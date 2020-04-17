@@ -1,10 +1,10 @@
 # latex-action
 
-[![GitHub Actions Status](https://github.com/xu-cheng/latex-action/workflows/Test%20Github%20Action/badge.svg)](https://github.com/xu-cheng/latex-action/actions)
+[![GitHub Actions Status](https://github.com/jeff-tian/latex-action/workflows/Test%20Github%20Action/badge.svg)](https://github.com/jeff-tian/latex-action/actions)
 
 GitHub Action to compile LaTeX documents.
 
-It runs in [a docker image](https://github.com/xu-cheng/latex-docker) with a full [TeXLive](https://www.tug.org/texlive/) environment installed.
+It runs in [a docker image](https://github.com/jeff-tian/latex-docker) with a full [TeXLive](https://www.tug.org/texlive/) environment installed.
 
 ## Inputs
 
@@ -40,7 +40,7 @@ jobs:
       - name: Set up Git repository
         uses: actions/checkout@v1
       - name: Compile LaTeX document
-        uses: xu-cheng/latex-action@master
+        uses: jeff-tian/latex-action@master
         with:
           root_file: main.tex
 ```
@@ -68,7 +68,7 @@ The PDF file will be in the same folder as that of the LaTeX source in the CI en
 - Try to solve the problem by examining the build log.
 - Try to build the document locally.
 - You can also try to narrow the problem by creating a minimal working example to reproduce the problem.
-- [Open an issue](https://github.com/xu-cheng/latex-action/issues/new) if you need help.
+- [Open an issue](https://github.com/jeff-tian/latex-action/issues/new) if you need help.
 
 ### Run from local machine
 
