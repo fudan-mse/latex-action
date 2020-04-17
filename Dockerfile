@@ -1,4 +1,4 @@
-FROM docker.pkg.github.com/jeff-tian/latex-docker/texlive-full:latest
+FROM jefftian/texlive-full:latest
 
 COPY \
   LICENSE \
