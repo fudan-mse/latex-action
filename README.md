@@ -6,11 +6,20 @@ GitHub Action to compile LaTeX documents.
 
 It runs in [a docker image](https://github.com/jeff-tian/latex-docker) with a full [TeXLive](https://www.tug.org/texlive/) environment installed.
 
+If you want to run arbitrary commands in a TeXLive environment, use [texlive-action](https://github.com/xu-cheng/texlive-action) instead.
+
 ## Inputs
 
 - `root_file`
 
-  The root LaTeX file to be compiled. This input is required.
+    The root LaTeX file to be compiled. This input is required. You can also pass multiple files as a multi-line string to compile multiple documents. For example:
+    ```yaml
+    - uses: xu-cheng/latex-action@v2
+      with:
+        root_file: |
+          file1.tex
+          file2.tex
+    ```
 
 - `working_directory`
 
@@ -28,6 +37,14 @@ It runs in [a docker image](https://github.com/jeff-tian/latex-docker) with a fu
 
   The extra packages to be installed by [`apk`](https://pkgs.alpinelinux.org/packages) separated by space. For example, `extra_system_packages: "py-pygments"` will install the package `py-pygments` to be used by the `minted` for code highlights.
 
+* `pre_compile`
+
+    Arbitrary bash codes to be executed before compiling LaTeX documents. For example, `pre_compile: "tlmgr update --all"` to update all TeXLive packages.
+
+* `post_compile`
+
+    Arbitrary bash codes to be executed after compiling LaTeX documents. For example, `post_compile: "latexmk -c"` to clean up temporary files.
+
 ## Example
 
 ```yaml
@@ -38,9 +55,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Set up Git repository
-        uses: actions/checkout@v1
+        uses: actions/checkout@v2
       - name: Compile LaTeX document
-        uses: jeff-tian/latex-action@master
+        uses: xu-cheng/latex-action@v2
         with:
           root_file: main.tex
 ```
@@ -63,6 +80,10 @@ The PDF file will be in the same folder as that of the LaTeX source in the CI en
 - You can use [`@actions/upload-release-asset`](https://github.com/actions/upload-release-asset) to upload PDF file to the Github Release.
 - You can use normal shell tools such as `scp`/`git`/`rsync` to upload PDF file anywhere. For example, you can git push to the `gh-pages` branch in your repo, so you can view the document using Github Pages.
 
+### It fails due to `xindy` cannot be found.
+
+This is an upstream issue where `xindy.x86_64-linuxmusl` is currently missing in TeXLive. To work around it, try [this](https://github.com/xu-cheng/latex-action/issues/32#issuecomment-626086551).
+
 ### It fails to build the document, how to solve it?
 
 - Try to solve the problem by examining the build log.
@@ -79,6 +100,10 @@ docker run --name latex-action --rm -v "/var/run/docker.sock":"/var/run/docker.s
 # Windows
 docker run --name latex-action --rm -v "/var/run/docker.sock":"/var/run/docker.sock" -v "%cd%":/root/workspace jefftian/texlive-full:latest "fduthesis.tex" "/root/workspace/test" "arara" "--verbose" ""
 ```
+
+### MWE 
+
+[mwe]: https://tex.meta.stackexchange.com/questions/3300/minimum-working-example-mwe
 
 ## License
 
