@@ -31,7 +31,7 @@ If you want to run arbitrary commands in a TeXLive environment, use [texlive-act
 
 - `args`
 
-  The extra arguments to be passed to the LaTeX engine. By default, it is `-pdf -file-line-error -interaction=nonstopmode`. This tells `latexmk` to use `pdflatex`. Refer to [`latexmk` document](http://texdoc.net/texmf-dist/doc/support/latexmk/latexmk.pdf) for more information.
+    The extra arguments to be passed to the LaTeX engine. By default, it is `-pdf -file-line-error -halt-on-error -interaction=nonstopmode`. This tells `latexmk` to use `pdflatex`. Refer to [`latexmk` document](http://texdoc.net/texmf-dist/doc/support/latexmk/latexmk.pdf) for more information.
 
 - `extra_system_packages`
 
@@ -44,6 +44,20 @@ If you want to run arbitrary commands in a TeXLive environment, use [texlive-act
 * `post_compile`
 
     Arbitrary bash codes to be executed after compiling LaTeX documents. For example, `post_compile: "latexmk -c"` to clean up temporary files.
+
+**The following inputs are only valid if the input `compiler` is not changed.**
+
+* `latexmk_shell_escape`
+
+    Instruct `latexmk` to enable `--shell-escape`.
+
+* `latexmk_use_lualatex`
+
+    Instruct `latexmk` to use LuaLaTeX.
+
+* `latexmk_use_xelatex`
+
+    Instruct `latexmk` to use XeLaTeX.
 
 ## Example
 
@@ -66,11 +80,34 @@ jobs:
 
 ### How to use XeLaTeX or LuaLaTeX instead of pdfLaTeX?
 
-By default, this action uses pdfLaTeX. If you want to use XeLaTeX or LuaLaTeX, you can set the `args` to `-xelatex -file-line-error -interaction=nonstopmode` or `-lualatex --file-line-error --interaction=nonstopmode` respectively. Alternatively, you could create a `.latexmkrc` file. Refer to the [`latexmk` document](http://texdoc.net/texmf-dist/doc/support/latexmk/latexmk.pdf) for more information.
+By default, this action uses pdfLaTeX. If you want to use XeLaTeX or LuaLaTeX, you can set the `latexmk_use_xelatex` or `latexmk_use_lualatex` input respectively. For example:
+
+```yaml
+- uses: xu-cheng/latex-action@v2
+  with:
+    root_file: main.tex
+    latexmk_use_xelatex: true
+```
+
+```yaml
+- uses: xu-cheng/latex-action@v2
+  with:
+    root_file: main.tex
+    latexmk_use_lualatex: true
+```
+
+Alternatively, you could create a `.latexmkrc` file. Refer to the [`latexmk` document](http://texdoc.net/texmf-dist/doc/support/latexmk/latexmk.pdf) for more information.
 
 ### How to enable `--shell-escape`?
 
-To enable `--shell-escape`, you should add it to `args`. For example, set `args` to `-pdf -file-line-error -interaction=nonstopmode -shell-escape` when using pdfLaTeX.
+To enable `--shell-escape`, set the `latexmk_shell_escape` input.
+
+```yaml
+- uses: xu-cheng/latex-action@v2
+  with:
+    root_file: main.tex
+    latexmk_shell_escape: true
+```
 
 ### Where is the PDF file? How to upload it?
 
@@ -86,24 +123,12 @@ This is an upstream issue where `xindy.x86_64-linuxmusl` is currently missing in
 
 ### It fails to build the document, how to solve it?
 
-- Try to solve the problem by examining the build log.
-- Try to build the document locally.
-- You can also try to narrow the problem by creating a minimal working example to reproduce the problem.
-- [Open an issue](https://github.com/jeff-tian/latex-action/issues/new) if you need help.
+* Try to solve the problem by examining the build log.
+* Try to build the document locally.
+* You can also try to narrow the problem by creating a [minimal working example][mwe] to reproduce the problem.
+* [Open an issue](https://github.com/xu-cheng/latex-action/issues/new) if you need help. Please include a [minimal working example][mwe] to demonstrate your problem.
 
-### Run from local machine
-
-```shell
-docker build -t jefftian/texlive-full .
-# macOS
-docker run --name latex-action --rm -v "/var/run/docker.sock":"/var/run/docker.sock" -v "$PWD":/root/workspace jefftian/texlive-full:latest "fduthesis.tex" "/root/workspace/test" "arara" "--verbose" ""
-# Windows
-docker run --name latex-action --rm -v "/var/run/docker.sock":"/var/run/docker.sock" -v "%cd%":/root/workspace jefftian/texlive-full:latest "fduthesis.tex" "/root/workspace/test" "arara" "--verbose" ""
-```
-
-### MWE 
-
-[mwe]: https://tex.meta.stackexchange.com/questions/3300/minimum-working-example-mwe
+[mwe]: https://tex.meta.stackexchange.com/questions/228/ive-just-been-asked-to-write-a-minimal-working-example-mwe-what-is-that
 
 ## License
 

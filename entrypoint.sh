@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env bash
 
 set -e
 
@@ -15,40 +15,85 @@ error() {
   exit 1
 }
 
-root_file="$1"
-working_directory="$2"
-compiler="$3"
-args="$4"
-extra_packages="$5"
-extra_system_packages="$6"
-pre_compile="$7"
-post_compile="$8"
+root_file="${1}"
+working_directory="${2}"
+compiler="${3}"
+args="${4}"
+extra_packages="${5}"
+extra_system_packages="${6}"
+pre_compile="${7}"
+post_compile="${8}"
+latexmk_shell_escape="${9}"
+latexmk_use_lualatex="${10}"
+latexmk_use_xelatex="${11}"
 
-if [ -z "$root_file" ]; then
+if [[ -z "$root_file" ]]; then
   error "Input 'root_file' is missing."
 fi
 
-if [ -z "$compiler" ] && [ -z "$args" ]; then
+if [[ -z "$compiler" && -z "$args" ]]; then
   warn "Input 'compiler' and 'args' are both empty. Reset them to default values."
   compiler="latexmk"
-  args="-pdf -file-line-error -interaction=nonstopmode"
+  args="-pdf -file-line-error -halt-on-error -interaction=nonstopmode"
 fi
 
-if [ -n "$extra_system_packages" ]; then
+IFS=' ' read -r -a args <<< "$args"
+
+if [[ "$compiler" = "latexmk" ]]; then
+  if [[ -n "$latexmk_shell_escape" ]]; then
+    args+=("-shell-escape")
+  fi
+
+  if [[ -n "$latexmk_use_lualatex" && -n "$latexmk_use_xelatex" ]]; then
+    error "Input 'latexmk_use_lualatex' and 'latexmk_use_xelatex' cannot be used at the same time."
+  fi
+
+  if [[ -n "$latexmk_use_lualatex" ]]; then
+    for i in "${!args[@]}"; do
+      if [[ "${args[i]}" = "-pdf" ]]; then
+        unset 'args[i]'
+      fi
+    done
+    args+=("-lualatex")
+    # LuaLaTeX use --flag instead of -flag for arguments.
+    for VAR in -file-line-error -halt-on-error -shell-escape; do
+      for i in "${!args[@]}"; do
+        if [[ "${args[i]}" = "$VAR" ]]; then
+          args[i]="-$VAR"
+        fi
+      done
+    done
+    args=("${args[@]/#-interaction=/--interaction=}")
+  fi
+
+  if [[ -n "$latexmk_use_xelatex" ]]; then
+    for i in "${!args[@]}"; do
+      if [[ "${args[i]}" = "-pdf" ]]; then
+        unset 'args[i]'
+      fi
+    done
+    args+=("-xelatex")
+  fi
+else
+  for VAR in "${!latexmk_@}"; do
+    if [[ -n "${!VAR}" ]]; then
+      error "Input '${VAR}' is only valid if input 'compiler' is set to 'latexmk'."
+    fi
+  done
+fi
+
+if [[ -n "$extra_system_packages" ]]; then
   for pkg in $extra_system_packages; do
     info "Install $pkg by apk"
     apk --no-cache add "$pkg"
   done
 fi
 
-if [ -n "$extra_packages" ]; then
-  for pkg in $extra_packages; do
-    echo "Installing $pkg by tlmgr"
-    tlmgr install "$pkg"
-  done
+if [[ -n "$extra_packages" ]]; then
+  warn "Input 'extra_packages' is deprecated. We now build LaTeX document with full TeXLive installed."
 fi
 
-if [ -n "$working_directory" ]; then
+if [[ -n "$working_directory" ]]; then
   cd "$working_directory"
   echo "switched to $working_directory"
 fi
@@ -64,27 +109,26 @@ if [ ! -f "$root_file" ]; then
   ls | echo
 fi
 
-if [ -n "$pre_compile" ]; then
+if [[ -n "$pre_compile" ]]; then
   info "Run pre compile commands"
   eval "$pre_compile"
 fi
 
-echo "$root_file" | while IFS= read -r f; do
-  if [ -z "$f" ]; then
+while IFS= read -r f; do
+  if [[ -z "$f" ]]; then
     continue
   fi
 
   info "Compile $f"
 
-  if [ ! -f "$f" ]; then
+  if [[ ! -f "$f" ]]; then
     error "File '$f' cannot be found from the directory '$PWD'."
   fi
 
-  # shellcheck disable=SC2086
-  "$compiler" $args "$f"
-done
+  "$compiler" "${args[@]}" "$f"
+done <<< "$root_file"
 
-if [ -n "$post_compile" ]; then
+if [[ -n "$post_compile" ]]; then
   info "Run post compile commands"
   eval "$post_compile"
 fi
