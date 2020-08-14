@@ -95,18 +95,6 @@ fi
 
 if [[ -n "$working_directory" ]]; then
   cd "$working_directory"
-  echo "switched to $working_directory"
-fi
-
-if [ -z "$working_directory" ]; then
-  cd "$PWD"
-  echo "switched to $PWD"
-fi
-
-if [ ! -f "$root_file" ]; then
-  error "File '$root_file' cannot be found from the directory '$PWD'."
-  echo "files here:"
-  ls | echo
 fi
 
 if [[ -n "$pre_compile" ]]; then

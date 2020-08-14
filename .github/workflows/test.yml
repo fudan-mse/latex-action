@@ -77,18 +77,18 @@ jobs:
         with:
           root_file: fduthesis.tex
           working_directory: test/
-          compiler: arara
+          compiler: lualatex
           args: "--verbose"
           # Arbitrary bash codes to be executed before compiling LaTeX documents
           pre_compile: # optional
           # Arbitrary bash codes to be executed after compiling LaTeX documents
           post_compile: # optional
           # Instruct latexmk to enable --shell-escape
-          latexmk_shell_escape: # optional
+          latexmk_shell_escape: true
           # Instruct latexmk to use LuaLaTeX
-          latexmk_use_lualatex: # optional
+          latexmk_use_lualatex: true
           # Instruct latexmk to use XeLaTeX
-          latexmk_use_xelatex: # optional
+          latexmk_use_xelatex: false
       - name: Check pdf files
         run: |
           file test/test.pdf | grep -q ' PDF '
