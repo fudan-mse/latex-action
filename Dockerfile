@@ -7,5 +7,3 @@ COPY \
   /root/
 
 ENTRYPOINT ["/root/entrypoint.sh"]
-
-expose 3000
