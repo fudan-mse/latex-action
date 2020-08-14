@@ -77,7 +77,7 @@ jobs:
         with:
           root_file: fduthesis.tex
           working_directory: test/
-          compiler: lualatex
+          compiler: latexmk
           args: "--verbose"
           # Arbitrary bash codes to be executed before compiling LaTeX documents
           pre_compile: # optional
