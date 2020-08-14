@@ -87,8 +87,6 @@ jobs:
           latexmk_shell_escape: true
           # Instruct latexmk to use LuaLaTeX
           latexmk_use_lualatex: true
-          # Instruct latexmk to use XeLaTeX
-          latexmk_use_xelatex: false
       - name: Check pdf files
         run: |
           file test/test.pdf | grep -q ' PDF '
