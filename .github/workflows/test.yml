@@ -74,6 +74,8 @@ jobs:
           extra_system_packages: # optional
       - name: Test fduthesis
         uses: ./
+        env:
+          LC_ALL: C.UTF-8
         with:
           root_file: fduthesis.tex
           working_directory: test/
