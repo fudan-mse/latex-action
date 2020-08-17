@@ -80,7 +80,7 @@ jobs:
           root_file: fduthesis.tex
           working_directory: test/
           compiler: latexmk
-          args: "--verbose"
+          args: "--verbose -f"
           # Arbitrary bash codes to be executed before compiling LaTeX documents
           pre_compile: # optional
           # Arbitrary bash codes to be executed after compiling LaTeX documents
