@@ -87,8 +87,7 @@ jobs:
           post_compile: # optional
           # Instruct latexmk to enable --shell-escape
           latexmk_shell_escape: true
-          # Instruct latexmk to use LuaLaTeX
-          latexmk_use_lualatex: true
+          latexmk_use_xelatex: true
       - name: Check pdf files
         run: |
           file test/test.pdf | grep -q ' PDF '
