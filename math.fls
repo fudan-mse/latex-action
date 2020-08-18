@@ -32,6 +32,8 @@ INPUT /opt/texlive/texdir/texmf-dist/tex/latex/blindtext/blindtext.sty
 INPUT /opt/texlive/texdir/texmf-dist/tex/latex/blindtext/blindtext.sty
 INPUT /opt/texlive/texdir/texmf-dist/tex/latex/tools/xspace.sty
 INPUT /opt/texlive/texdir/texmf-dist/tex/latex/tools/xspace.sty
+INPUT /opt/texlive/texdir/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
+INPUT /opt/texlive/texdir/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
 INPUT math.aux
 INPUT math.aux
 OUTPUT math.aux

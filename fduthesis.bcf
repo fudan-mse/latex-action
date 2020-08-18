@@ -420,6 +420,7 @@
     <bcf:option datatype="boolean">eprint</bcf:option>
     <bcf:option datatype="boolean">related</bcf:option>
     <bcf:option datatype="boolean">subentry</bcf:option>
+    <bcf:option datatype="boolean">gbmedium</bcf:option>
     <bcf:option datatype="boolean">gbannote</bcf:option>
     <bcf:option datatype="boolean">gbfieldtype</bcf:option>
     <bcf:option datatype="boolean">gbfnperpage</bcf:option>
@@ -430,10 +431,10 @@
     <bcf:option datatype="boolean">gbstrict</bcf:option>
     <bcf:option datatype="boolean">gbtitlelink</bcf:option>
     <bcf:option datatype="boolean">gbctexset</bcf:option>
+    <bcf:option datatype="boolean">gbnoauthor</bcf:option>
     <bcf:option datatype="boolean">gbfieldstd</bcf:option>
     <bcf:option datatype="boolean">gbpub</bcf:option>
     <bcf:option datatype="boolean">gbpunctin</bcf:option>
-    <bcf:option datatype="boolean">gbnoauthor</bcf:option>
     <bcf:option datatype="integer">mincrossrefs</bcf:option>
     <bcf:option datatype="integer">minxrefs</bcf:option>
     <bcf:option datatype="integer">maxnames</bcf:option>
@@ -857,10 +858,6 @@
         <bcf:map_step map_field_set="keywords" map_origfieldval="1"/>
       </bcf:map>
       <bcf:map>
-        <bcf:map_step map_field_source="title" map_match="[\x{2FF0}-\x{9FA5}]" map_final="1"/>
-        <bcf:map_step map_field_set="userd" map_field_value="chinese"/>
-      </bcf:map>
-      <bcf:map>
         <bcf:map_step map_field_source="title" map_match="[\x{0100}-\x{017F}]" map_final="1"/>
         <bcf:map_step map_field_set="userd" map_field_value="french"/>
       </bcf:map>
@@ -877,12 +874,12 @@
         <bcf:map_step map_field_set="userd" map_field_value="korean"/>
       </bcf:map>
       <bcf:map>
-        <bcf:map_step map_field_source="title" map_final="1"/>
-        <bcf:map_step map_field_set="userd" map_field_value="english"/>
+        <bcf:map_step map_field_source="title" map_match="[\x{2FF0}-\x{9FA5}]" map_final="1"/>
+        <bcf:map_step map_field_set="userd" map_field_value="chinese"/>
       </bcf:map>
       <bcf:map>
-        <bcf:map_step map_field_source="author" map_match="[\x{2FF0}-\x{9FA5}]" map_final="1"/>
-        <bcf:map_step map_field_set="userf" map_field_value="chinese"/>
+        <bcf:map_step map_field_source="title" map_final="1"/>
+        <bcf:map_step map_field_set="userd" map_field_value="english"/>
       </bcf:map>
       <bcf:map>
         <bcf:map_step map_field_source="author" map_match="[\x{0100}-\x{017F}]" map_final="1"/>
@@ -901,12 +898,12 @@
         <bcf:map_step map_field_set="userf" map_field_value="korean"/>
       </bcf:map>
       <bcf:map>
-        <bcf:map_step map_field_source="author" map_final="1"/>
-        <bcf:map_step map_field_set="userf" map_field_value="english"/>
+        <bcf:map_step map_field_source="author" map_match="[\x{2FF0}-\x{9FA5}]" map_final="1"/>
+        <bcf:map_step map_field_set="userf" map_field_value="chinese"/>
       </bcf:map>
       <bcf:map>
-        <bcf:map_step map_field_source="translator" map_match="[\x{2FF0}-\x{9FA5}]" map_final="1"/>
-        <bcf:map_step map_field_set="usere" map_field_value="chinese"/>
+        <bcf:map_step map_field_source="author" map_final="1"/>
+        <bcf:map_step map_field_set="userf" map_field_value="english"/>
       </bcf:map>
       <bcf:map>
         <bcf:map_step map_field_source="translator" map_match="[\x{0100}-\x{017F}]" map_final="1"/>
@@ -925,12 +922,12 @@
         <bcf:map_step map_field_set="usere" map_field_value="korean"/>
       </bcf:map>
       <bcf:map>
-        <bcf:map_step map_field_source="translator" map_final="1"/>
-        <bcf:map_step map_field_set="usere" map_field_value="english"/>
+        <bcf:map_step map_field_source="translator" map_match="[\x{2FF0}-\x{9FA5}]" map_final="1"/>
+        <bcf:map_step map_field_set="usere" map_field_value="chinese"/>
       </bcf:map>
       <bcf:map>
-        <bcf:map_step map_field_source="editor" map_match="[\x{2FF0}-\x{9FA5}]" map_final="1"/>
-        <bcf:map_step map_field_set="userc" map_field_value="chinese"/>
+        <bcf:map_step map_field_source="translator" map_final="1"/>
+        <bcf:map_step map_field_set="usere" map_field_value="english"/>
       </bcf:map>
       <bcf:map>
         <bcf:map_step map_field_source="editor" map_match="[\x{0100}-\x{017F}]" map_final="1"/>
@@ -949,12 +946,12 @@
         <bcf:map_step map_field_set="userc" map_field_value="korean"/>
       </bcf:map>
       <bcf:map>
-        <bcf:map_step map_field_source="editor" map_final="1"/>
-        <bcf:map_step map_field_set="userc" map_field_value="english"/>
+        <bcf:map_step map_field_source="editor" map_match="[\x{2FF0}-\x{9FA5}]" map_final="1"/>
+        <bcf:map_step map_field_set="userc" map_field_value="chinese"/>
       </bcf:map>
       <bcf:map>
-        <bcf:map_step map_field_source="bookauthor" map_match="[\x{2FF0}-\x{9FA5}]" map_final="1"/>
-        <bcf:map_step map_field_set="userb" map_field_value="chinese"/>
+        <bcf:map_step map_field_source="editor" map_final="1"/>
+        <bcf:map_step map_field_set="userc" map_field_value="english"/>
       </bcf:map>
       <bcf:map>
         <bcf:map_step map_field_source="bookauthor" map_match="[\x{0100}-\x{017F}]" map_final="1"/>
@@ -971,6 +968,10 @@
       <bcf:map>
         <bcf:map_step map_field_source="bookauthor" map_match="[\x{1100}-\x{11FF}\x{3130}-\x{318F}\x{AC00}-\x{D7AF}]" map_final="1"/>
         <bcf:map_step map_field_set="userb" map_field_value="korean"/>
+      </bcf:map>
+      <bcf:map>
+        <bcf:map_step map_field_source="bookauthor" map_match="[\x{2FF0}-\x{9FA5}]" map_final="1"/>
+        <bcf:map_step map_field_set="userb" map_field_value="chinese"/>
       </bcf:map>
       <bcf:map>
         <bcf:map_step map_field_source="bookauthor" map_final="1"/>
@@ -994,26 +995,32 @@
       <bcf:map>
         <bcf:map_step map_field_source="language" map_match="(e|E)(n|N)(g|G)(l|L)(i|I)(s|S)(h|H)" map_final="1"/>
         <bcf:map_step map_field_set="langid" map_field_value="english"/>
+        <bcf:map_step map_field_set="lansortorder" map_field_value="4"/>
       </bcf:map>
       <bcf:map>
         <bcf:map_step map_field_source="language" map_match="(r|R)(u|U)(s|S)(s|S)(i|I)(a|A)(n|N)" map_final="1"/>
         <bcf:map_step map_field_set="langid" map_field_value="russian"/>
+        <bcf:map_step map_field_set="lansortorder" map_field_value="6"/>
       </bcf:map>
       <bcf:map>
         <bcf:map_step map_field_source="language" map_match="(f|F)(r|R)(e|E)(n|N)(c|C)(h|H)" map_final="1"/>
         <bcf:map_step map_field_set="langid" map_field_value="french"/>
+        <bcf:map_step map_field_set="lansortorder" map_field_value="5"/>
       </bcf:map>
       <bcf:map>
         <bcf:map_step map_field_source="language" map_match="(c|C)(h|H)(i|I)(n|N)(e|E)(s|S)(e|E)" map_final="1"/>
         <bcf:map_step map_field_set="langid" map_field_value="english"/>
+        <bcf:map_step map_field_set="lansortorder" map_field_value="1"/>
       </bcf:map>
       <bcf:map>
         <bcf:map_step map_field_source="language" map_match="(j|J)(a|A)(p|P)(a|A)(n|N)(e|E)(s|S)(e|E)" map_final="1"/>
         <bcf:map_step map_field_set="langid" map_field_value="english"/>
+        <bcf:map_step map_field_set="lansortorder" map_field_value="2"/>
       </bcf:map>
       <bcf:map>
         <bcf:map_step map_field_source="language" map_match="(k|K)(o|O)(r|R)(e|E)(a|A)(n|N)" map_final="1"/>
         <bcf:map_step map_field_set="langid" map_field_value="english"/>
+        <bcf:map_step map_field_set="lansortorder" map_field_value="3"/>
       </bcf:map>
     </bcf:maps>
     <bcf:maps datatype="bibtex" level="style">
@@ -1371,6 +1378,7 @@
       <bcf:entrytype>unpublished</bcf:entrytype>
       <bcf:entrytype>video</bcf:entrytype>
       <bcf:entrytype skip_output="true">xdata</bcf:entrytype>
+      <bcf:entrytype>newspaper</bcf:entrytype>
     </bcf:entrytypes>
     <bcf:fields>
       <bcf:field fieldtype="field" datatype="integer">sortyear</bcf:field>

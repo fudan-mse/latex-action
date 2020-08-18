@@ -10,8 +10,8 @@ INPUT /opt/texlive/texdir/texmf-dist/tex/latex/base/size10.clo
 INPUT /opt/texlive/texdir/texmf-dist/tex/latex/base/size10.clo
 INPUT /opt/texlive/texdir/texmf-dist/tex/latex/biblatex/biblatex.sty
 INPUT /opt/texlive/texdir/texmf-dist/tex/latex/biblatex/biblatex.sty
-INPUT /opt/texlive/texdir/texmf-dist/tex/latex/pdftexcmds/pdftexcmds.sty
-INPUT /opt/texlive/texdir/texmf-dist/tex/latex/pdftexcmds/pdftexcmds.sty
+INPUT /opt/texlive/texdir/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+INPUT /opt/texlive/texdir/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
 INPUT /opt/texlive/texdir/texmf-dist/tex/generic/infwarerr/infwarerr.sty
 INPUT /opt/texlive/texdir/texmf-dist/tex/generic/infwarerr/infwarerr.sty
 INPUT /opt/texlive/texdir/texmf-dist/tex/generic/iftex/iftex.sty
@@ -56,6 +56,8 @@ INPUT /opt/texlive/texdir/texmf-dist/tex/latex/biblatex/cbx/numeric-comp.cbx
 INPUT /opt/texlive/texdir/texmf-dist/tex/latex/biblatex/cbx/numeric-comp.cbx
 INPUT /opt/texlive/texdir/texmf-dist/tex/latex/biblatex/biblatex.cfg
 INPUT /opt/texlive/texdir/texmf-dist/tex/latex/biblatex/biblatex.cfg
+INPUT /opt/texlive/texdir/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
+INPUT /opt/texlive/texdir/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
 INPUT biblatex.aux
 INPUT biblatex.aux
 OUTPUT biblatex.aux

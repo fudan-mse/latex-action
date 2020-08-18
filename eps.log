@@ -1,37 +1,38 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.1.1)  17 APR 2020 11:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.8.17)  18 AUG 2020 20:23
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
 **eps.tex
 (./eps.tex
-LaTeX2e <2019-10-01> patch level 3
+LaTeX2e <2020-02-02> patch level 5
+L3 programming layer <2020-08-07>
 (/opt/texlive/texdir/texmf-dist/tex/latex/base/article.cls
-Document Class: article 2019/10/25 v1.4k Standard LaTeX document class
+Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
 (/opt/texlive/texdir/texmf-dist/tex/latex/base/size10.clo
-File: size10.clo 2019/10/25 v1.4k Standard LaTeX file (size option)
+File: size10.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
 )
-\c@part=\count80
-\c@section=\count81
-\c@subsection=\count82
-\c@subsubsection=\count83
-\c@paragraph=\count84
-\c@subparagraph=\count85
-\c@figure=\count86
-\c@table=\count87
-\abovecaptionskip=\skip41
-\belowcaptionskip=\skip42
-\bibindent=\dimen102
+\c@part=\count168
+\c@section=\count169
+\c@subsection=\count170
+\c@subsubsection=\count171
+\c@paragraph=\count172
+\c@subparagraph=\count173
+\c@figure=\count174
+\c@table=\count175
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen134
 )
 (/opt/texlive/texdir/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks14
+\KV@toks@=\toks15
 )
 (/opt/texlive/texdir/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2019/11/01 v1.3d Standard LaTeX Graphics (DPC,SPQR)
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
@@ -44,18 +45,26 @@ Package graphics Info: Driver file: pdftex.def on input line 105.
 (/opt/texlive/texdir/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen103
-\Gin@req@width=\dimen104
-) (./eps.aux)
+\Gin@req@height=\dimen135
+\Gin@req@width=\dimen136
+)
+(/opt/texlive/texdir/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
+File: l3backend-pdfmode.def 2020-08-07 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count176
+\l__pdf_internal_box=\box45
+)
+(./eps.aux)
 \openout1 = `eps.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 3.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
 LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 3.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
 LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
@@ -63,19 +72,19 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
  (/opt/texlive/texdir/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count88
-\scratchdimen=\dimen105
-\scratchbox=\box27
-\nofMPsegments=\count89
-\nofMParguments=\count90
-\everyMPshowfont=\toks15
-\MPscratchCnt=\count91
-\MPscratchDim=\dimen106
-\MPnumerator=\count92
-\makeMPintoPDFobject=\count93
-\everyMPtoPDFconversion=\toks16
+\scratchcounter=\count177
+\scratchdimen=\dimen137
+\scratchbox=\box46
+\nofMPsegments=\count178
+\nofMParguments=\count179
+\everyMPshowfont=\toks16
+\MPscratchCnt=\count180
+\MPscratchDim=\dimen138
+\MPnumerator=\count181
+\makeMPintoPDFobject=\count182
+\everyMPtoPDFconversion=\toks17
 ) (/opt/texlive/texdir/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
-Package: epstopdf-base 2019-12-09 v2.10 Base part for package epstopdf
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
 
@@ -84,7 +93,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 Package epstopdf Info: Source file: <./fig.eps>
-(epstopdf)                    date: 2020-04-17 11:02:09
+(epstopdf)                    date: 2020-08-18 20:21:36
 (epstopdf)                    size: 414 bytes
 (epstopdf)             Output file: <./fig-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=./fig-eps-converted-to.pdf
@@ -94,8 +103,8 @@ runsystem(repstopdf --outfile=./fig-eps-converted-to.pdf ./fig.eps)...executed
 safely (allowed).
 
 Package epstopdf Info: Result file: <./fig-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-04-17 11:04:50
-(epstopdf)                    size: 4310 bytes.
+(epstopdf)                    date: 2020-08-18 20:23:44
+(epstopdf)                    size: 4107 bytes.
 <./fig-eps-converted-to.pdf, id=1, 138.5175pt x 14.0525pt>
 File: ./fig-eps-converted-to.pdf Graphic file (type pdf)
 <use ./fig-eps-converted-to.pdf>
@@ -105,16 +114,16 @@ Package pdftex.def Info: ./fig-eps-converted-to.pdf  used on input line 6.
 [1{/opt/texlive/texdir/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./fig-eps
 -converted-to.pdf>] (./eps.aux) ) 
 Here is how much of TeX's memory you used:
- 988 strings out of 492163
- 12838 string characters out of 6127188
- 74298 words of memory out of 5000000
- 5405 multiletter control sequences out of 15000+600000
- 3640 words of font info for 14 fonts, out of 8000000 for 9000
+ 1132 strings out of 480893
+ 16730 string characters out of 5910023
+ 251879 words of memory out of 5000000
+ 16789 multiletter control sequences out of 15000+600000
+ 535088 words of font info for 29 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 30i,5n,23p,196b,215s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,5n,33p,196b,215s stack positions out of 5000i,500n,10000p,200000b,80000s
 </opt/texlive/texdir/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmr10.pfb>
-Output written on eps.pdf (1 page, 9865 bytes).
+Output written on eps.pdf (1 page, 9877 bytes).
 PDF statistics:
  18 PDF objects out of 1000 (max. 8388607)
  11 compressed objects within 1 object stream

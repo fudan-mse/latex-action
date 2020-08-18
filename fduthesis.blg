@@ -1,0 +1,5 @@
+[0] Config.pm:304> INFO - This is Biber 2.14
+[0] Config.pm:307> INFO - Logfile is 'fduthesis.blg'
+[96] biber:322> INFO - === Tue Aug 18, 2020, 20:24:12
+[116] Biber.pm:415> INFO - Reading 'fduthesis.bcf'
+[254] Utils.pm:304> WARN - No data sources defined!

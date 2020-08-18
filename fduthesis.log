@@ -1,262 +1,115 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2020.1.1)  17 APR 2020 11:05
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.8.17)  18 AUG 2020 20:24
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
 **fduthesis.tex
 (./fduthesis.tex
-LaTeX2e <2019-10-01> patch level 3
+LaTeX2e <2020-02-02> patch level 5
+L3 programming layer <2020-08-07>
 (/opt/texlive/texdir/texmf-dist/tex/latex/fduthesis/fduthesis.cls
 (/opt/texlive/texdir/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2019-11-07 L3 programming layer (loader) 
+Package: expl3 2020-08-07 L3 programming layer (loader) 
 
-(/opt/texlive/texdir/texmf-dist/tex/latex/l3kernel/expl3-code.tex
-Package: expl3 2019-11-07 L3 programming layer (code)
-\c_max_int=\count80
-\l_tmpa_int=\count81
-\l_tmpb_int=\count82
-\g_tmpa_int=\count83
-\g_tmpb_int=\count84
-\l__seq_internal_a_int=\count85
-\l__seq_internal_b_int=\count86
-\g__kernel_prg_map_int=\count87
-\c__ior_term_noprompt_ior=\count88
-\c_log_iow=\count89
-\l_iow_line_count_int=\count90
-\l__iow_line_target_int=\count91
-\l__iow_one_indent_int=\count92
-\l__iow_indent_int=\count93
-\c_zero_dim=\dimen102
-\c_max_dim=\dimen103
-\l_tmpa_dim=\dimen104
-\l_tmpb_dim=\dimen105
-\g_tmpa_dim=\dimen106
-\g_tmpb_dim=\dimen107
-\c_zero_skip=\skip41
-\c_max_skip=\skip42
-\l_tmpa_skip=\skip43
-\l_tmpb_skip=\skip44
-\g_tmpa_skip=\skip45
-\g_tmpb_skip=\skip46
-\c_zero_muskip=\muskip10
-\c_max_muskip=\muskip11
-\l_tmpa_muskip=\muskip12
-\l_tmpb_muskip=\muskip13
-\g_tmpa_muskip=\muskip14
-\g_tmpb_muskip=\muskip15
-\l_keys_choice_int=\count94
-\l__intarray_loop_int=\count95
-\c__intarray_sp_dim=\dimen108
-\g__intarray_font_int=\count96
-\c__fp_leading_shift_int=\count97
-\c__fp_middle_shift_int=\count98
-\c__fp_trailing_shift_int=\count99
-\c__fp_big_leading_shift_int=\count100
-\c__fp_big_middle_shift_int=\count101
-\c__fp_big_trailing_shift_int=\count102
-\c__fp_Bigg_leading_shift_int=\count103
-\c__fp_Bigg_middle_shift_int=\count104
-\c__fp_Bigg_trailing_shift_int=\count105
-\g__fp_array_int=\count106
-\l__fp_array_loop_int=\count107
-\l__sort_length_int=\count108
-\l__sort_min_int=\count109
-\l__sort_top_int=\count110
-\l__sort_max_int=\count111
-\l__sort_true_max_int=\count112
-\l__sort_block_int=\count113
-\l__sort_begin_int=\count114
-\l__sort_end_int=\count115
-\l__sort_A_int=\count116
-\l__sort_B_int=\count117
-\l__sort_C_int=\count118
-\l__str_internal_int=\count119
-\l__tl_analysis_normal_int=\count120
-\l__tl_analysis_index_int=\count121
-\l__tl_analysis_nesting_int=\count122
-\l__tl_analysis_type_int=\count123
-\l__regex_internal_a_int=\count124
-\l__regex_internal_b_int=\count125
-\l__regex_internal_c_int=\count126
-\l__regex_balance_int=\count127
-\l__regex_group_level_int=\count128
-\l__regex_mode_int=\count129
-\c__regex_cs_in_class_mode_int=\count130
-\c__regex_cs_mode_int=\count131
-\l__regex_catcodes_int=\count132
-\l__regex_default_catcodes_int=\count133
-\c__regex_catcode_L_int=\count134
-\c__regex_catcode_O_int=\count135
-\c__regex_catcode_A_int=\count136
-\c__regex_all_catcodes_int=\count137
-\l__regex_show_lines_int=\count138
-\l__regex_min_state_int=\count139
-\l__regex_max_state_int=\count140
-\l__regex_left_state_int=\count141
-\l__regex_right_state_int=\count142
-\l__regex_capturing_group_int=\count143
-\l__regex_min_pos_int=\count144
-\l__regex_max_pos_int=\count145
-\l__regex_curr_pos_int=\count146
-\l__regex_start_pos_int=\count147
-\l__regex_success_pos_int=\count148
-\l__regex_curr_char_int=\count149
-\l__regex_curr_catcode_int=\count150
-\l__regex_last_char_int=\count151
-\l__regex_case_changed_char_int=\count152
-\l__regex_curr_state_int=\count153
-\l__regex_step_int=\count154
-\l__regex_min_active_int=\count155
-\l__regex_max_active_int=\count156
-\l__regex_replacement_csnames_int=\count157
-\l__regex_match_count_int=\count158
-\l__regex_min_submatch_int=\count159
-\l__regex_submatch_int=\count160
-\l__regex_zeroth_submatch_int=\count161
-\g__regex_trace_regex_int=\count162
-\c_empty_box=\box27
-\l_tmpa_box=\box28
-\l_tmpb_box=\box29
-\g_tmpa_box=\box30
-\g_tmpb_box=\box31
-\l__box_top_dim=\dimen109
-\l__box_bottom_dim=\dimen110
-\l__box_left_dim=\dimen111
-\l__box_right_dim=\dimen112
-\l__box_top_new_dim=\dimen113
-\l__box_bottom_new_dim=\dimen114
-\l__box_left_new_dim=\dimen115
-\l__box_right_new_dim=\dimen116
-\l__box_internal_box=\box32
-\l__coffin_internal_box=\box33
-\l__coffin_internal_dim=\dimen117
-\l__coffin_offset_x_dim=\dimen118
-\l__coffin_offset_y_dim=\dimen119
-\l__coffin_x_dim=\dimen120
-\l__coffin_y_dim=\dimen121
-\l__coffin_x_prime_dim=\dimen122
-\l__coffin_y_prime_dim=\dimen123
-\c_empty_coffin=\box34
-\l__coffin_aligned_coffin=\box35
-\l__coffin_aligned_internal_coffin=\box36
-\l_tmpa_coffin=\box37
-\l_tmpb_coffin=\box38
-\g_tmpa_coffin=\box39
-\g_tmpb_coffin=\box40
-\l__coffin_bounding_shift_dim=\dimen124
-\l__coffin_left_corner_dim=\dimen125
-\l__coffin_right_corner_dim=\dimen126
-\l__coffin_bottom_corner_dim=\dimen127
-\l__coffin_top_corner_dim=\dimen128
-\l__coffin_scaled_total_height_dim=\dimen129
-\l__coffin_scaled_width_dim=\dimen130
-\c__coffin_empty_coffin=\box41
-\l__coffin_display_coffin=\box42
-\l__coffin_display_coord_coffin=\box43
-\l__coffin_display_pole_coffin=\box44
-\l__coffin_display_offset_dim=\dimen131
-\l__coffin_display_x_dim=\dimen132
-\l__coffin_display_y_dim=\dimen133
-\g__char_data_ior=\read1
-
-(/opt/texlive/texdir/texmf-dist/tex/latex/l3kernel/l3deprecation.def
-File: l3deprecation.def 2019-04-06 v L3 Deprecated functions
-))
 (/opt/texlive/texdir/texmf-dist/tex/latex/l3backend/l3backend-xdvipdfmx.def
-File: l3backend-xdvipdfmx.def 2019-04-06 L3 backend support: xdvipdfmx
-\g__graphics_track_int=\count163
+File: l3backend-xdvipdfmx.def 2020-08-07 L3 backend support: xdvipdfmx
+\g__graphics_track_int=\count164
 \l__pdf_internal_box=\box45
-\g__pdf_backend_object_int=\count164
-\g__pdf_backend_annotation_int=\count165
+\g__pdf_backend_object_int=\count165
+\g__pdf_backend_annotation_int=\count166
 ))
 Document Class: fduthesis 2019/04/03 v0.7d Thesis template for Fudan University
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
-Package: xparse 2019-10-11 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count166
-\g__xparse_grabber_int=\count167
-\l__xparse_m_args_int=\count168
-\l__xparse_v_nesting_int=\count169
-)
-(/opt/texlive/texdir/texmf-dist/tex/latex/l3packages/xtemplate/xtemplate.sty
-Package: xtemplate 2019-10-11 L3 Experimental prototype document functions
+Package: xparse 2020-05-15 L3 Experimental document command parser
+
+(/opt/texlive/texdir/texmf-dist/tex/latex/l3packages/xparse/xparse-generic.tex
+\l__xparse_current_arg_int=\count167
+\g__xparse_grabber_int=\count168
+\l__xparse_m_args_int=\count169
+\l__xparse_v_nesting_int=\count170
+)) (/opt/texlive/texdir/texmf-dist/tex/latex/l3packages/xtemplate/xtemplate.sty
+Package: xtemplate 2020-05-15 L3 Experimental prototype document functions
 \l__xtemplate_tmp_dim=\dimen134
-\l__xtemplate_tmp_int=\count170
+\l__xtemplate_tmp_int=\count171
 \l__xtemplate_tmp_muskip=\muskip16
 \l__xtemplate_tmp_skip=\skip47
-)
-(/opt/texlive/texdir/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
-Package: l3keys2e 2019-10-11 LaTeX2e option processing using LaTeX3 keys
+) (/opt/texlive/texdir/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+Package: l3keys2e 2020-05-15 LaTeX2e option processing using LaTeX3 keys
 )
 \l__fdu_tmpa_box=\box46
 \l__fdu_tmpa_dim=\dimen135
 \l__fdu_tmpb_dim=\dimen136
 \l__fdu_tmpa_skip=\skip48
-\g__fdu_thesis_type_int=\count171
+\g__fdu_thesis_type_int=\count172
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/fduthesis/fduthesis.def
 File: fduthesis.def 2019/04/03 v0.7d Definition file for fduthesis
 )
 (/opt/texlive/texdir/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count172
+Package: etoolbox 2020/07/15 v2.5i e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count173
 )
 (/opt/texlive/texdir/texmf-dist/tex/latex/ctex/ctexbook.cls
-Document Class: ctexbook 2019/05/29 v2.4.16 Chinese adapter for class book (CTE
-X)
+(/opt/texlive/texdir/texmf-dist/tex/latex/ctex/config/ctexbackend.cfg
+File: ctexbackend.cfg 2020/06/06 v2.5.3 Backend configuration file (CTEX)
+)
+Document Class: ctexbook 2020/06/06 v2.5.3 Chinese adapter for class book (CTEX
+)
 (/opt/texlive/texdir/texmf-dist/tex/latex/ctex/ctexhook.sty
-Package: ctexhook 2019/05/29 v2.4.16 Document and package hooks (CTEX)
+Package: ctexhook 2020/06/06 v2.5.3 Document and package hooks (CTEX)
 )
 (/opt/texlive/texdir/texmf-dist/tex/latex/ctex/ctexpatch.sty
-Package: ctexpatch 2019/05/29 v2.4.16 Patching commands (CTEX)
+Package: ctexpatch 2020/06/06 v2.5.3 Patching commands (CTEX)
 )
 (/opt/texlive/texdir/texmf-dist/tex/latex/base/fix-cm.sty
 Package: fix-cm 2015/01/14 v1.1t fixes to LaTeX
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/base/ts1enc.def
 File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding TS1 on input line 47.
 ))
 (/opt/texlive/texdir/texmf-dist/tex/latex/ms/everysel.sty
 Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
 )
-\l__ctex_tmp_int=\count173
+\l__ctex_tmp_int=\count174
 \l__ctex_tmp_box=\box47
 \l__ctex_tmp_dim=\dimen137
-\g__ctex_section_depth_int=\count174
-\g__ctex_font_size_int=\count175
+\g__ctex_section_depth_int=\count175
+\g__ctex_font_size_int=\count176
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/ctex/config/ctexopts.cfg
-File: ctexopts.cfg 2019/05/29 v2.4.16 Option configuration file (CTEX)
+File: ctexopts.cfg 2020/06/06 v2.5.3 Option configuration file (CTEX)
 )
 (/opt/texlive/texdir/texmf-dist/tex/latex/base/book.cls
-Document Class: book 2019/10/25 v1.4k Standard LaTeX document class
+Document Class: book 2019/12/20 v1.4l Standard LaTeX document class
 (/opt/texlive/texdir/texmf-dist/tex/latex/base/bk12.clo
-File: bk12.clo 2019/10/25 v1.4k Standard LaTeX file (size option)
+File: bk12.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
 )
-\c@part=\count176
-\c@chapter=\count177
-\c@section=\count178
-\c@subsection=\count179
-\c@subsubsection=\count180
-\c@paragraph=\count181
-\c@subparagraph=\count182
-\c@figure=\count183
-\c@table=\count184
+\c@part=\count177
+\c@chapter=\count178
+\c@section=\count179
+\c@subsection=\count180
+\c@subsubsection=\count181
+\c@paragraph=\count182
+\c@subparagraph=\count183
+\c@figure=\count184
+\c@table=\count185
 \abovecaptionskip=\skip49
 \belowcaptionskip=\skip50
 \bibindent=\dimen138
 )
 (/opt/texlive/texdir/texmf-dist/tex/latex/ctex/engine/ctex-engine-xetex.def
-File: ctex-engine-xetex.def 2019/05/29 v2.4.16 XeLaTeX adapter (CTEX)
+File: ctex-engine-xetex.def 2020/06/06 v2.5.3 XeLaTeX adapter (CTEX)
 
 (/opt/texlive/texdir/texmf-dist/tex/xelatex/xecjk/xeCJK.sty
-Package: xeCJK 2019/06/02 v3.7.4 Typesetting CJK scripts with XeLaTeX
-\l__xeCJK_tmp_int=\count185
+Package: xeCJK 2020/06/06 v3.8.4 Typesetting CJK scripts with XeLaTeX
+\l__xeCJK_tmp_int=\count186
 \l__xeCJK_tmp_box=\box48
 \l__xeCJK_tmp_dim=\dimen139
 \l__xeCJK_tmp_skip=\skip51
-\g__xeCJK_space_factor_int=\count186
-\l__xeCJK_begin_int=\count187
-\l__xeCJK_end_int=\count188
+\g__xeCJK_space_factor_int=\count187
+\l__xeCJK_begin_int=\count188
+\l__xeCJK_end_int=\count189
 \c__xeCJK_CJK_class_int=\XeTeXcharclass1
 \c__xeCJK_FullLeft_class_int=\XeTeXcharclass2
 \c__xeCJK_FullRight_class_int=\XeTeXcharclass3
@@ -266,7 +119,7 @@ Package: xeCJK 2019/06/02 v3.7.4 Typesetting CJK scripts with XeLaTeX
 \c__xeCJK_CM_class_int=\XeTeXcharclass7
 \c__xeCJK_HangulJamo_class_int=\XeTeXcharclass8
 \l__xeCJK_last_skip=\skip52
-\g__xeCJK_node_int=\count189
+\g__xeCJK_node_int=\count190
 \c__xeCJK_CJK_node_dim=\dimen140
 \c__xeCJK_CJK-space_node_dim=\dimen141
 \c__xeCJK_default_node_dim=\dimen142
@@ -276,13 +129,13 @@ Package: xeCJK 2019/06/02 v3.7.4 Typesetting CJK scripts with XeLaTeX
 \l__xeCJK_ccglue_skip=\skip53
 \l__xeCJK_ecglue_skip=\skip54
 \l__xeCJK_punct_kern_skip=\skip55
-\l__xeCJK_last_penalty_int=\count190
+\l__xeCJK_last_penalty_int=\count191
 \l__xeCJK_last_bound_dim=\dimen146
 \l__xeCJK_last_kern_dim=\dimen147
-\l__xeCJK_widow_penalty_int=\count191
+\l__xeCJK_widow_penalty_int=\count192
 
 Package xtemplate Info: Declaring object type 'xeCJK/punctuation' taking 0
-(xtemplate)             argument(s) on line 2323.
+(xtemplate)             argument(s) on line 2329.
 
 \l__xeCJK_fixed_punct_width_dim=\dimen148
 \l__xeCJK_mixed_punct_width_dim=\dimen149
@@ -303,112 +156,70 @@ Package xtemplate Info: Declaring object type 'xeCJK/punctuation' taking 0
 \l__xeCJK_margin_dim=\dimen164
 \l__xeCJK_minimum_bound_dim=\dimen165
 \l__xeCJK_kerning_margin_dim=\dimen166
-\g__xeCJK_family_int=\count192
-\l__xeCJK_fam_int=\count193
-\g__xeCJK_fam_allocation_int=\count194
-\l__xeCJK_verb_case_int=\count195
+\g__xeCJK_family_int=\count193
+\l__xeCJK_fam_int=\count194
+\g__xeCJK_fam_allocation_int=\count195
+\l__xeCJK_verb_case_int=\count196
 \l__xeCJK_verb_exspace_skip=\skip56
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/fontspec/fontspec.sty
-Package: fontspec 2019/10/19 v2.7d Font selection for XeLaTeX and LuaLaTeX
+Package: fontspec 2020/02/21 v2.7i Font selection for XeLaTeX and LuaLaTeX
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
-Package: fontspec-xetex 2019/10/19 v2.7d Font selection for XeLaTeX and LuaLaTe
+Package: fontspec-xetex 2020/02/21 v2.7i Font selection for XeLaTeX and LuaLaTe
 X
-\l__fontspec_script_int=\count196
-\l__fontspec_language_int=\count197
-\l__fontspec_strnum_int=\count198
-\l__fontspec_tmp_int=\count199
-\l__fontspec_tmpa_int=\count266
-\l__fontspec_tmpb_int=\count267
-\l__fontspec_tmpc_int=\count268
-\l__fontspec_em_int=\count269
-\l__fontspec_emdef_int=\count270
-\l__fontspec_strong_int=\count271
-\l__fontspec_strongdef_int=\count272
+\l__fontspec_script_int=\count197
+\l__fontspec_language_int=\count198
+\l__fontspec_strnum_int=\count199
+\l__fontspec_tmp_int=\count266
+\l__fontspec_tmpa_int=\count267
+\l__fontspec_tmpb_int=\count268
+\l__fontspec_tmpc_int=\count269
+\l__fontspec_em_int=\count270
+\l__fontspec_emdef_int=\count271
+\l__fontspec_strong_int=\count272
+\l__fontspec_strongdef_int=\count273
 \l__fontspec_tmpa_dim=\dimen167
 \l__fontspec_tmpb_dim=\dimen168
 \l__fontspec_tmpc_dim=\dimen169
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/base/fontenc.sty
-Package: fontenc 2018/08/11 v2.0j Standard LaTeX package
-
-(/opt/texlive/texdir/texmf-dist/tex/latex/base/tuenc.def
-File: tuenc.def 2018/08/11 v2.0j Standard LaTeX file
-LaTeX Font Info:    Redeclaring font encoding TU on input line 82.
-))
-(/opt/texlive/texdir/texmf-dist/tex/latex/fontspec/fontspec.cfg)
-LaTeX Info: Redefining \itshape on input line 4047.
-LaTeX Info: Redefining \slshape on input line 4052.
-LaTeX Info: Redefining \scshape on input line 4057.
-LaTeX Info: Redefining \upshape on input line 4062.
-LaTeX Info: Redefining \em on input line 4092.
-LaTeX Info: Redefining \emph on input line 4117.
-))
+Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
+)
+(/opt/texlive/texdir/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
 (/opt/texlive/texdir/texmf-dist/tex/xelatex/xecjk/xeCJK.cfg
-File: xeCJK.cfg 2019/06/02 v3.7.4 Configuration file for xeCJK package
+File: xeCJK.cfg 2020/06/06 v3.8.4 Configuration file for xeCJK package
 ))
-(/opt/texlive/texdir/texmf-dist/tex/xelatex/xecjk/xeCJKfntef.sty
-Package: xeCJKfntef 2019/06/02 v3.7.4 xeCJK font effect
-
-(/opt/texlive/texdir/texmf-dist/tex/generic/ulem/ulem.sty
-\UL@box=\box49
-\UL@hyphenbox=\box50
-\UL@skip=\skip57
-\UL@hook=\toks14
-\UL@height=\dimen170
-\UL@pe=\count273
-\UL@pixel=\dimen171
-\ULC@box=\box51
-Package: ulem 2012/05/18
-\ULdepth=\dimen172
+\ccwd=\dimen170
+\l__ctex_ccglue_skip=\skip57
 )
-(/opt/texlive/texdir/texmf-dist/tex/latex/cjk/texinput/CJKfntef.sty
-Package: CJKfntef 2015/04/18 4.8.4
-\CJK@fntefSkip=\skip58
-\CJK@nest=\count274
-\CJK@fntefDimen=\dimen173
-\CJK@underdotBox=\box52
-\CJK@ULbox=\box53
-\CJK@underanyskip=\dimen174
-)
-\l__xeCJK_space_skip=\skip59
-\c__xeCJK_ulem-begin_node_dim=\dimen175
-\c__xeCJK_null_box=\box54
-\l__xeCJK_fntef_box=\box55
-\l__xeCJK_under_symbol_box=\box56
-\c__xeCJK_filll_skip=\skip60
-)
-\ccwd=\dimen176
-\l__ctex_ccglue_skip=\skip61
-)
-\l__ctex_ziju_dim=\dimen177
+\l__ctex_ziju_dim=\dimen171
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/zhnumber/zhnumber.sty
-Package: zhnumber 2019/04/07 v2.7 Typesetting numbers with Chinese glyphs
-\l__zhnum_scale_int=\count275
+Package: zhnumber 2020/05/01 v2.8 Typesetting numbers with Chinese glyphs
+\l__zhnum_scale_int=\count274
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/zhnumber/zhnumber-utf8.cfg
-File: zhnumber-utf8.cfg 2019/04/07 v2.7 Chinese numerals with UTF8 encoding
+File: zhnumber-utf8.cfg 2020/05/01 v2.8 Chinese numerals with UTF8 encoding
 ))
-\l__ctex_heading_skip=\skip62
+\l__ctex_heading_skip=\skip58
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/ctex/scheme/ctex-scheme-chinese-book.
 def
-File: ctex-scheme-chinese-book.def 2019/05/29 v2.4.16 Chinese scheme for book (
-CTEX)
+File: ctex-scheme-chinese-book.def 2020/06/06 v2.5.3 Chinese scheme for book (C
+TEX)
  (/opt/texlive/texdir/texmf-dist/tex/latex/ctex/config/ctex-name-utf8.cfg
-File: ctex-name-utf8.cfg 2019/05/29 v2.4.16 Caption with encoding UTF8 (CTEX)
+File: ctex-name-utf8.cfg 2020/06/06 v2.5.3 Caption with encoding UTF-8 (CTEX)
 ))
 (/opt/texlive/texdir/texmf-dist/tex/latex/ctex/ctex-cs4size.clo
-File: ctex-cs4size.clo 2019/05/29 v2.4.16 cs4size option (CTEX)
+File: ctex-cs4size.clo 2020/06/06 v2.5.3 cs4size option (CTEX)
 ))
 (/opt/texlive/texdir/texmf-dist/tex/latex/ctex/config/ctex.cfg
-File: ctex.cfg 2019/05/29 v2.4.16 Configuration file (CTEX)
+File: ctex.cfg 2020/06/06 v2.5.3 Configuration file (CTEX)
 )
 (/opt/texlive/texdir/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2019/11/16 v2.17d AMS math features
-\@mathmargin=\skip63
+Package: amsmath 2020/01/20 v2.17e AMS math features
+\@mathmargin=\skip59
 
 For additional information on amsmath, use the `?' option.
 (/opt/texlive/texdir/texmf-dist/tex/latex/amsmath/amstext.sty
@@ -417,116 +228,110 @@ Package: amstext 2000/06/29 v2.01 AMS text
 (/opt/texlive/texdir/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks15
-\ex@=\dimen178
+\ex@=\dimen172
 ))
 (/opt/texlive/texdir/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen179
+\pmbraise@=\dimen173
 )
 (/opt/texlive/texdir/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count276
+\inf@bad=\count275
 LaTeX Info: Redefining \frac on input line 227.
-\uproot@=\count277
-\leftroot@=\count278
+\uproot@=\count276
+\leftroot@=\count277
 LaTeX Info: Redefining \overline on input line 389.
-\classnum@=\count279
-\DOTSCASE@=\count280
+\classnum@=\count278
+\DOTSCASE@=\count279
 LaTeX Info: Redefining \ldots on input line 486.
 LaTeX Info: Redefining \dots on input line 489.
 LaTeX Info: Redefining \cdots on input line 610.
-\Mathstrutbox@=\box57
-\strutbox@=\box58
-\big@size=\dimen180
+\Mathstrutbox@=\box49
+\strutbox@=\box50
+\big@size=\dimen174
 LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
-\macc@depth=\count281
-\c@MaxMatrixCols=\count282
+\macc@depth=\count280
+\c@MaxMatrixCols=\count281
 \dotsspace@=\muskip17
-\c@parentequation=\count283
-\dspbrk@lvl=\count284
+\c@parentequation=\count282
+\dspbrk@lvl=\count283
 \tag@help=\toks16
-\row@=\count285
-\column@=\count286
-\maxfields@=\count287
+\row@=\count284
+\column@=\count285
+\maxfields@=\count286
 \andhelp@=\toks17
-\eqnshift@=\dimen181
-\alignsep@=\dimen182
-\tagshift@=\dimen183
-\tagwidth@=\dimen184
-\totwidth@=\dimen185
-\lineht@=\dimen186
+\eqnshift@=\dimen175
+\alignsep@=\dimen176
+\tagshift@=\dimen177
+\tagwidth@=\dimen178
+\totwidth@=\dimen179
+\lineht@=\dimen180
 \@envbody=\toks18
-\multlinegap=\skip64
-\multlinetaggap=\skip65
+\multlinegap=\skip60
+\multlinetaggap=\skip61
 \mathdisplay@stack=\toks19
-LaTeX Info: Redefining \[ on input line 2858.
-LaTeX Info: Redefining \] on input line 2859.
+LaTeX Info: Redefining \[ on input line 2859.
+LaTeX Info: Redefining \] on input line 2860.
 )
 (/opt/texlive/texdir/texmf-dist/tex/latex/unicode-math/unicode-math.sty
-Package: unicode-math 2019/09/26 v0.8p Unicode maths in XeLaTeX and LuaLaTeX
+Package: unicode-math 2020/01/31 v0.8q Unicode maths in XeLaTeX and LuaLaTeX
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/unicode-math/unicode-math-xetex.sty
-Package: unicode-math-xetex 2019/09/26 v0.8p Unicode maths in XeLaTeX and LuaLa
+Package: unicode-math-xetex 2020/01/31 v0.8q Unicode maths in XeLaTeX and LuaLa
 TeX
-\g__um_fam_int=\count288
-\g__um_fonts_used_int=\count289
-\l__um_primecount_int=\count290
+\g__um_fam_int=\count287
+\g__um_fonts_used_int=\count288
+\l__um_primecount_int=\count289
 \g__um_primekern_muskip=\muskip18
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/unicode-math/unicode-math-table.tex))
 ) (/opt/texlive/texdir/texmf-dist/tex/latex/geometry/geometry.sty
-Package: geometry 2018/04/16 v5.8 Page Geometry
+Package: geometry 2020/01/02 v5.9 Page Geometry
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks20
 )
-(/opt/texlive/texdir/texmf-dist/tex/generic/iftex/ifpdf.sty
-Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
-
-(/opt/texlive/texdir/texmf-dist/tex/generic/iftex/iftex.sty
-Package: iftex 2019/11/07 v1.0c TeX engine tests
-))
 (/opt/texlive/texdir/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
-)
-(/opt/texlive/texdir/texmf-dist/tex/generic/iftex/ifxetex.sty
-Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
-)
-\Gm@cnth=\count291
-\Gm@cntv=\count292
-\c@Gm@tempcnt=\count293
-\Gm@bindingoffset=\dimen187
-\Gm@wd@mp=\dimen188
-\Gm@odd@mp=\dimen189
-\Gm@even@mp=\dimen190
-\Gm@layoutwidth=\dimen191
-\Gm@layoutheight=\dimen192
-\Gm@layouthoffset=\dimen193
-\Gm@layoutvoffset=\dimen194
+
+(/opt/texlive/texdir/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+\Gm@cnth=\count290
+\Gm@cntv=\count291
+\c@Gm@tempcnt=\count292
+\Gm@bindingoffset=\dimen181
+\Gm@wd@mp=\dimen182
+\Gm@odd@mp=\dimen183
+\Gm@even@mp=\dimen184
+\Gm@layoutwidth=\dimen185
+\Gm@layoutheight=\dimen186
+\Gm@layouthoffset=\dimen187
+\Gm@layoutvoffset=\dimen188
 \Gm@dimlist=\toks21
 )
 (/opt/texlive/texdir/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
 s
-\f@nch@headwidth=\skip66
-\f@nch@O@elh=\skip67
-\f@nch@O@erh=\skip68
-\f@nch@O@olh=\skip69
-\f@nch@O@orh=\skip70
-\f@nch@O@elf=\skip71
-\f@nch@O@erf=\skip72
-\f@nch@O@olf=\skip73
-\f@nch@O@orf=\skip74
+\f@nch@headwidth=\skip62
+\f@nch@O@elh=\skip63
+\f@nch@O@erh=\skip64
+\f@nch@O@olh=\skip65
+\f@nch@O@orh=\skip66
+\f@nch@O@elf=\skip67
+\f@nch@O@erf=\skip68
+\f@nch@O@olf=\skip69
+\f@nch@O@orf=\skip70
 )
 (/opt/texlive/texdir/texmf-dist/tex/latex/footmisc/footmisc.sty
 Package: footmisc 2011/06/06 v5.5b a miscellany of footnote facilities
 \FN@temptoken=\toks22
-\footnotemargin=\dimen195
-\c@pp@next@reset=\count294
-\c@@fnserial=\count295
+\footnotemargin=\dimen189
+\c@pp@next@reset=\count293
+\c@@fnserial=\count294
 Package footmisc Info: Declaring symbol style bringhurst on input line 855.
 Package footmisc Info: Declaring symbol style chicago on input line 863.
 Package footmisc Info: Declaring symbol style wiley on input line 872.
@@ -546,22 +351,22 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 \theorem@@style=\toks24
 \theorembodyfont=\toks25
 \theoremnumbering=\toks26
-\theorempreskipamount=\skip75
-\theorempostskipamount=\skip76
-\theoremframepreskipamount=\skip77
-\theoremframepostskipamount=\skip78
-\theoreminframepreskipamount=\skip79
-\theoreminframepostskipamount=\skip80
+\theorempreskipamount=\skip71
+\theorempostskipamount=\skip72
+\theoremframepreskipamount=\skip73
+\theoremframepostskipamount=\skip74
+\theoreminframepreskipamount=\skip75
+\theoreminframepostskipamount=\skip76
 \theorem@preskip=\toks27
 \theorem@postskip=\toks28
 \theorem@framepreskip=\toks29
 \theorem@framepostskip=\toks30
 \theorem@inframepreskip=\toks31
 \theorem@inframepostskip=\toks32
-\theoremindent=\dimen196
-\theorem@indent=\dimen197
-\theoremrightindent=\dimen198
-\theorem@rightindent=\dimen199
+\theoremindent=\dimen190
+\theorem@indent=\dimen191
+\theoremrightindent=\dimen192
+\theorem@rightindent=\dimen193
 \theoremheaderfont=\toks33
 \theoremseparator=\toks34
 \theoremprework=\toks35
@@ -570,22 +375,22 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 \qedsymbol=\toks38
 \theoremkeyword=\toks39
 \qedsymbol=\toks40
-\thm@topsep=\skip81
-\thm@topsepadd=\skip82
+\thm@topsep=\skip77
+\thm@topsepadd=\skip78
 Package ntheorem Info: Option `thmmarks' loaded on input line 1175.
-\c@endNonectr=\count296
-\c@currNonectr=\count297
-\mysavskip=\skip83
+\c@endNonectr=\count295
+\c@currNonectr=\count296
+\mysavskip=\skip79
 Package ntheorem Info: option `amsmath' handling for `thmmarks' loaded on input
  line 1175.
-\thm@amstmpdepth=\dimen256
-\tagwidth=\dimen257
+\thm@amstmpdepth=\dimen194
+\tagwidth=\dimen195
 )
 (/opt/texlive/texdir/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2019/11/01 v1.3d Standard LaTeX Graphics (DPC,SPQR)
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
@@ -598,48 +403,48 @@ Package graphics Info: Driver file: xetex.def on input line 105.
 (/opt/texlive/texdir/texmf-dist/tex/latex/graphics-def/xetex.def
 File: xetex.def 2017/06/24 v5.0h Graphics/color driver for xetex
 ))
-\Gin@req@height=\dimen258
-\Gin@req@width=\dimen259
+\Gin@req@height=\dimen196
+\Gin@req@width=\dimen197
 )
 (/opt/texlive/texdir/texmf-dist/tex/latex/tools/longtable.sty
-Package: longtable 2019/02/06 v4.12 Multi-page Table package (DPC)
-\LTleft=\skip84
-\LTright=\skip85
-\LTpre=\skip86
-\LTpost=\skip87
-\LTchunksize=\count298
-\LTcapwidth=\dimen260
-\LT@head=\box59
-\LT@firsthead=\box60
-\LT@foot=\box61
-\LT@lastfoot=\box62
-\LT@cols=\count299
-\LT@rows=\count300
-\c@LT@tables=\count301
-\c@LT@chunks=\count302
+Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
+\LTleft=\skip80
+\LTright=\skip81
+\LTpre=\skip82
+\LTpost=\skip83
+\LTchunksize=\count297
+\LTcapwidth=\dimen198
+\LT@head=\box51
+\LT@firsthead=\box52
+\LT@foot=\box53
+\LT@lastfoot=\box54
+\LT@cols=\count298
+\LT@rows=\count299
+\c@LT@tables=\count300
+\c@LT@chunks=\count301
 \LT@p@ftn=\toks41
 )
 (/opt/texlive/texdir/texmf-dist/tex/latex/caption/caption.sty
-Package: caption 2019/10/18 v3.4a Customizing captions (AR)
+Package: caption 2020/05/30 v3.4k Customizing captions (AR)
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/caption/caption3.sty
-Package: caption3 2019/09/09 v1.8e caption3 kernel (AR)
-Package caption3 Info: TeX engine: e-TeX on input line 64.
-\captionmargin=\dimen261
-\captionmargin@=\dimen262
-\captionwidth=\dimen263
-\caption@tempdima=\dimen264
-\caption@indent=\dimen265
-\caption@parindent=\dimen266
-\caption@hangindent=\dimen267
+Package: caption3 2020/07/20 v1.12b caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 61.
+\captionmargin=\dimen199
+\captionmargin@=\dimen256
+\captionwidth=\dimen257
+\caption@tempdima=\dimen258
+\caption@indent=\dimen259
+\caption@parindent=\dimen260
+\caption@hangindent=\dimen261
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count303
-\c@continuedfloat=\count304
+\c@caption@flags=\count302
+\c@continuedfloat=\count303
 Package caption Info: longtable package is loaded.
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/caption/ltcaption.sty
-Package: ltcaption 2018/08/26 v1.4a longtable captions (AR)
+Package: ltcaption 2020/05/30 v1.4b longtable captions (AR)
 ))
 (/opt/texlive/texdir/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
@@ -657,54 +462,64 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 )
-\l__fdu_info_degree_type_int=\count305
+\l__fdu_info_degree_type_int=\count304
 
 Package xtemplate Info: Declaring object type 'fdu/cover' taking 0 argument(s)
 (xtemplate)             on line 1120.
 
-\l__fdu_cover/cover-i/top_skip=\skip88
-\l__fdu_cover/cover-i/bottom_skip=\skip89
-\l__fdu_cover/cover-i/id/bottom_skip=\skip90
-\l__fdu_cover/cover-i/logo/bottom_skip=\skip91
-\l__fdu_cover/cover-i/type/bottom_skip=\skip92
-\l__fdu_cover/cover-i/degree/bottom_skip=\skip93
-\l__fdu_cover/cover-i/title/bottom_skip=\skip94
-\l__fdu_cover/cover-i/title-en/bottom_skip=\skip95
-\l__fdu_cover/cover-i/info/bottom_skip=\skip96
-\l__fdu_cover/cover-ii/top_skip=\skip97
-\l__fdu_cover/cover-ii/bottom_skip=\skip98
-\l__fdu_cover/cover-ii/title/bottom_skip=\skip99
-\l__fdu_cover/cover-ii/name-list/bottom_skip=\skip100
-\l__fdu_cover/cover-iii/top_skip=\skip101
-\l__fdu_cover/cover-iii/bottom_skip=\skip102
-\l__fdu_cover/cover-iii/originality-decl-name/bottom_skip=\skip103
-\l__fdu_cover/cover-iii/originality-decl-text/bottom_skip=\skip104
-\l__fdu_cover/cover-iii/originality-decl-sig/bottom_skip=\skip105
-\l__fdu_cover/cover-iii/authorization-decl-name/bottom_skip=\skip106
-\l__fdu_cover/cover-iii/authorization-decl-text/bottom_skip=\skip107
-\l__fdu_cover/cover-iii/authorization-decl-sig/bottom_skip=\skip108
-\c@currproofctr=\count306
-\c@endproofctr=\count307
-\c@proof=\count308
-\c@curraxiomctr=\count309
-\c@endaxiomctr=\count310
-\c@axiom=\count311
-\c@currcorollaryctr=\count312
-\c@endcorollaryctr=\count313
-\c@corollary=\count314
-\c@currdefinitionctr=\count315
-\c@enddefinitionctr=\count316
-\c@definition=\count317
-\c@currexamplectr=\count318
-\c@endexamplectr=\count319
-\c@example=\count320
-\c@currlemmactr=\count321
-\c@endlemmactr=\count322
-\c@lemma=\count323
-\c@currtheoremctr=\count324
-\c@endtheoremctr=\count325
-\c@theorem=\count326
+\l__fdu_cover/cover-i/top_skip=\skip84
+\l__fdu_cover/cover-i/bottom_skip=\skip85
+\l__fdu_cover/cover-i/id/bottom_skip=\skip86
+\l__fdu_cover/cover-i/logo/bottom_skip=\skip87
+\l__fdu_cover/cover-i/type/bottom_skip=\skip88
+\l__fdu_cover/cover-i/degree/bottom_skip=\skip89
+\l__fdu_cover/cover-i/title/bottom_skip=\skip90
+\l__fdu_cover/cover-i/title-en/bottom_skip=\skip91
+\l__fdu_cover/cover-i/info/bottom_skip=\skip92
+\l__fdu_cover/cover-ii/top_skip=\skip93
+\l__fdu_cover/cover-ii/bottom_skip=\skip94
+\l__fdu_cover/cover-ii/title/bottom_skip=\skip95
+\l__fdu_cover/cover-ii/name-list/bottom_skip=\skip96
+\l__fdu_cover/cover-iii/top_skip=\skip97
+\l__fdu_cover/cover-iii/bottom_skip=\skip98
+\l__fdu_cover/cover-iii/originality-decl-name/bottom_skip=\skip99
+\l__fdu_cover/cover-iii/originality-decl-text/bottom_skip=\skip100
+\l__fdu_cover/cover-iii/originality-decl-sig/bottom_skip=\skip101
+\l__fdu_cover/cover-iii/authorization-decl-name/bottom_skip=\skip102
+\l__fdu_cover/cover-iii/authorization-decl-text/bottom_skip=\skip103
+\l__fdu_cover/cover-iii/authorization-decl-sig/bottom_skip=\skip104
+\c@currproofctr=\count305
+\c@endproofctr=\count306
+\c@proof=\count307
+\c@curraxiomctr=\count308
+\c@endaxiomctr=\count309
+\c@axiom=\count310
+\c@currcorollaryctr=\count311
+\c@endcorollaryctr=\count312
+\c@corollary=\count313
+\c@currdefinitionctr=\count314
+\c@enddefinitionctr=\count315
+\c@definition=\count316
+\c@currexamplectr=\count317
+\c@endexamplectr=\count318
+\c@example=\count319
+\c@currlemmactr=\count320
+\c@endlemmactr=\count321
+\c@lemma=\count322
+\c@currtheoremctr=\count323
+\c@endtheoremctr=\count324
+\c@theorem=\count325
 )
+
+Package xeCJK Warning: It seems that you have not declare a CJKfamily.
+(xeCJK)                If you want to use xeCJK in the right way, you should
+(xeCJK)                use
+(xeCJK)                
+(xeCJK)                `\setCJKmainfont[...]{...}'
+(xeCJK)                
+(xeCJK)                in the preamble to declare the default CJKfamily.
+(xeCJK)                
+
 
 Package fontspec Info: Font family 'XITS(0)' created for font 'XITS' with
 (fontspec)             options
@@ -717,31 +532,30 @@ lCapsFont=*-Italic},BoldItalicFeatures={SmallCapsFont=*-BoldItalic}].
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->"[XITS-Regular.otf]/OT:script=latn;language=DFLT;mapp
+(fontspec)             <->"[XITS-Regular.otf]/OT:script=latn;language=dflt;mapp
 ing=tex-text;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
-(fontspec)             <->"[XITS-Regular.otf]/OT:script=latn;language=DFLT;mapp
+(fontspec)             <->"[XITS-Regular.otf]/OT:script=latn;language=dflt;mapp
 ing=tex-text;"
-(fontspec)             - 'bold' (bx/n) with NFSS spec.:
-(fontspec)             <->"[XITS-Bold.otf]/OT:script=latn;language=DFLT;mapping
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"[XITS-Bold.otf]/OT:script=latn;language=dflt;mapping
 =tex-text;"
-(fontspec)             - 'bold small caps'  (bx/sc) with NFSS spec.:
-(fontspec)             <->"[XITS-Bold.otf]/OT:script=latn;language=DFLT;mapping
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->"[XITS-Bold.otf]/OT:script=latn;language=dflt;mapping
 =tex-text;"
 (fontspec)             - 'italic' (m/it) with NFSS spec.:
-(fontspec)             <->"[XITS-Italic.otf]/OT:script=latn;language=DFLT;mappi
+(fontspec)             <->"[XITS-Italic.otf]/OT:script=latn;language=dflt;mappi
 ng=tex-text;"
-(fontspec)             - 'italic small caps'  (m/itsc) with NFSS spec.:
-(fontspec)             <->"[XITS-Italic.otf]/OT:script=latn;language=DFLT;mappi
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->"[XITS-Italic.otf]/OT:script=latn;language=dflt;mappi
 ng=tex-text;"
-(fontspec)             - 'bold italic' (bx/it) with NFSS spec.:
-(fontspec)             <->"[XITS-BoldItalic.otf]/OT:script=latn;language=DFLT;m
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->"[XITS-BoldItalic.otf]/OT:script=latn;language=dflt;m
 apping=tex-text;"
-(fontspec)             - 'bold italic small caps'  (bx/itsc) with NFSS spec.:
-(fontspec)             <->"[XITS-BoldItalic.otf]/OT:script=latn;language=DFLT;m
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
+(fontspec)             <->"[XITS-BoldItalic.otf]/OT:script=latn;language=dflt;m
 apping=tex-text;"
 
-LaTeX Info: Redefining \rmfamily on input line 7.
 
 Package fontspec Info: Font family 'XITS(1)' created for font 'XITS' with
 (fontspec)             options
@@ -754,30 +568,30 @@ alic},BoldItalicFeatures={SmallCapsFont=*-BoldItalic}].
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->"[XITS-Regular.otf]/OT:script=latn;language=DFLT;"
+(fontspec)             <->"[XITS-Regular.otf]/OT:script=latn;language=dflt;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
-(fontspec)             <->"[XITS-Regular.otf]/OT:script=latn;language=DFLT;"
-(fontspec)             - 'bold' (bx/n) with NFSS spec.:
-(fontspec)             <->"[XITS-Bold.otf]/OT:script=latn;language=DFLT;"
-(fontspec)             - 'bold small caps'  (bx/sc) with NFSS spec.:
-(fontspec)             <->"[XITS-Bold.otf]/OT:script=latn;language=DFLT;"
+(fontspec)             <->"[XITS-Regular.otf]/OT:script=latn;language=dflt;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"[XITS-Bold.otf]/OT:script=latn;language=dflt;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->"[XITS-Bold.otf]/OT:script=latn;language=dflt;"
 (fontspec)             - 'italic' (m/it) with NFSS spec.:
-(fontspec)             <->"[XITS-Italic.otf]/OT:script=latn;language=DFLT;"
-(fontspec)             - 'italic small caps'  (m/itsc) with NFSS spec.:
-(fontspec)             <->"[XITS-Italic.otf]/OT:script=latn;language=DFLT;"
-(fontspec)             - 'bold italic' (bx/it) with NFSS spec.:
-(fontspec)             <->"[XITS-BoldItalic.otf]/OT:script=latn;language=DFLT;"
+(fontspec)             <->"[XITS-Italic.otf]/OT:script=latn;language=dflt;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->"[XITS-Italic.otf]/OT:script=latn;language=dflt;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->"[XITS-BoldItalic.otf]/OT:script=latn;language=dflt;"
 
-(fontspec)             - 'bold italic small caps'  (bx/itsc) with NFSS spec.:
-(fontspec)             <->"[XITS-BoldItalic.otf]/OT:script=latn;language=DFLT;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
+(fontspec)             <->"[XITS-BoldItalic.otf]/OT:script=latn;language=dflt;"
 
 
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/XITS(1)/m/n on input line 7.
+(Font)                  OT1/cmr/m/n --> TU/XITS(1)/m/n on input line 4.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/XITS(1)/m/it on input line 7.
+(Font)                  OT1/cmr/m/it --> TU/XITS(1)/m/it on input line 4.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/XITS(1)/bx/n on input line 7.
+(Font)                  OT1/cmr/bx/n --> TU/XITS(1)/b/n on input line 4.
 
 Package fontspec Info: Font family 'texgyreheros(0)' created for font
 (fontspec)             'texgyreheros' with options
@@ -788,31 +602,30 @@ Font=*-bold,ItalicFont=*-italic,BoldItalicFont=*-bolditalic].
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->"[texgyreheros-regular.otf]/OT:script=latn;language=D
-FLT;mapping=tex-text;"
+(fontspec)             <->"[texgyreheros-regular.otf]/OT:script=latn;language=d
+flt;mapping=tex-text;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
-(fontspec)             <->"[texgyreheros-regular.otf]/OT:script=latn;language=D
-FLT;+smcp;mapping=tex-text;"
-(fontspec)             - 'bold' (bx/n) with NFSS spec.:
-(fontspec)             <->"[texgyreheros-bold.otf]/OT:script=latn;language=DFLT
+(fontspec)             <->"[texgyreheros-regular.otf]/OT:script=latn;language=d
+flt;+smcp;mapping=tex-text;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"[texgyreheros-bold.otf]/OT:script=latn;language=dflt
 ;mapping=tex-text;"
-(fontspec)             - 'bold small caps'  (bx/sc) with NFSS spec.:
-(fontspec)             <->"[texgyreheros-bold.otf]/OT:script=latn;language=DFLT
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->"[texgyreheros-bold.otf]/OT:script=latn;language=dflt
 ;+smcp;mapping=tex-text;"
 (fontspec)             - 'italic' (m/it) with NFSS spec.:
-(fontspec)             <->"[texgyreheros-italic.otf]/OT:script=latn;language=DF
-LT;mapping=tex-text;"
-(fontspec)             - 'italic small caps'  (m/itsc) with NFSS spec.:
-(fontspec)             <->"[texgyreheros-italic.otf]/OT:script=latn;language=DF
-LT;+smcp;mapping=tex-text;"
-(fontspec)             - 'bold italic' (bx/it) with NFSS spec.:
+(fontspec)             <->"[texgyreheros-italic.otf]/OT:script=latn;language=df
+lt;mapping=tex-text;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->"[texgyreheros-italic.otf]/OT:script=latn;language=df
+lt;+smcp;mapping=tex-text;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
 (fontspec)             <->"[texgyreheros-bolditalic.otf]/OT:script=latn;languag
-e=DFLT;mapping=tex-text;"
-(fontspec)             - 'bold italic small caps'  (bx/itsc) with NFSS spec.:
+e=dflt;mapping=tex-text;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
 (fontspec)             <->"[texgyreheros-bolditalic.otf]/OT:script=latn;languag
-e=DFLT;+smcp;mapping=tex-text;"
+e=dflt;+smcp;mapping=tex-text;"
 
-LaTeX Info: Redefining \sffamily on input line 7.
 
 Package fontspec Info: Font family 'texgyreheros(1)' created for font
 (fontspec)             'texgyreheros' with options
@@ -823,36 +636,36 @@ alicFont=*-italic,BoldItalicFont=*-bolditalic].
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->"[texgyreheros-regular.otf]/OT:script=latn;language=D
-FLT;"
+(fontspec)             <->"[texgyreheros-regular.otf]/OT:script=latn;language=d
+flt;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
-(fontspec)             <->"[texgyreheros-regular.otf]/OT:script=latn;language=D
-FLT;+smcp;"
-(fontspec)             - 'bold' (bx/n) with NFSS spec.:
-(fontspec)             <->"[texgyreheros-bold.otf]/OT:script=latn;language=DFLT
+(fontspec)             <->"[texgyreheros-regular.otf]/OT:script=latn;language=d
+flt;+smcp;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"[texgyreheros-bold.otf]/OT:script=latn;language=dflt
 ;"
-(fontspec)             - 'bold small caps'  (bx/sc) with NFSS spec.:
-(fontspec)             <->"[texgyreheros-bold.otf]/OT:script=latn;language=DFLT
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->"[texgyreheros-bold.otf]/OT:script=latn;language=dflt
 ;+smcp;"
 (fontspec)             - 'italic' (m/it) with NFSS spec.:
-(fontspec)             <->"[texgyreheros-italic.otf]/OT:script=latn;language=DF
-LT;"
-(fontspec)             - 'italic small caps'  (m/itsc) with NFSS spec.:
-(fontspec)             <->"[texgyreheros-italic.otf]/OT:script=latn;language=DF
-LT;+smcp;"
-(fontspec)             - 'bold italic' (bx/it) with NFSS spec.:
+(fontspec)             <->"[texgyreheros-italic.otf]/OT:script=latn;language=df
+lt;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->"[texgyreheros-italic.otf]/OT:script=latn;language=df
+lt;+smcp;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
 (fontspec)             <->"[texgyreheros-bolditalic.otf]/OT:script=latn;languag
-e=DFLT;"
-(fontspec)             - 'bold italic small caps'  (bx/itsc) with NFSS spec.:
+e=dflt;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
 (fontspec)             <->"[texgyreheros-bolditalic.otf]/OT:script=latn;languag
-e=DFLT;+smcp;"
+e=dflt;+smcp;"
 
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/texgyreheros(1)/m/n on input line 7
+(Font)                  OT1/cmss/m/n --> TU/texgyreheros(1)/m/n on input line 4
 .
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/texgyreheros(1)/bx/n on input line
- 7.
+(Font)                  OT1/cmss/bx/n --> TU/texgyreheros(1)/b/n on input line 
+4.
 
 Package fontspec Info: Font family 'texgyrecursor(0)' created for font
 (fontspec)             'texgyrecursor' with options
@@ -865,50 +678,49 @@ BoldItalicFont=*-bolditalic,Ligatures=CommonOff].
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
 (fontspec)             <->"[texgyrecursor-regular.otf]/OT:script=latn;language=
-DFLT;-liga;"
+dflt;-liga;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
 (fontspec)             <->"[texgyrecursor-regular.otf]/OT:script=latn;language=
-DFLT;-liga;+smcp;"
+dflt;-liga;+smcp;"
 (fontspec)             and font adjustment code:
 (fontspec)             \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font
 (fontspec)             =0\fontdimen 3\font \fontdimen 4\font =0\fontdimen
 (fontspec)             4\font \fontdimen 7\font =0\fontdimen 2\font
 (fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
-(fontspec)             - 'bold' (bx/n) with NFSS spec.:
-(fontspec)             <->"[texgyrecursor-bold.otf]/OT:script=latn;language=DFL
-T;-liga;"
-(fontspec)             - 'bold small caps'  (bx/sc) with NFSS spec.:
-(fontspec)             <->"[texgyrecursor-bold.otf]/OT:script=latn;language=DFL
-T;-liga;+smcp;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"[texgyrecursor-bold.otf]/OT:script=latn;language=dfl
+t;-liga;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->"[texgyrecursor-bold.otf]/OT:script=latn;language=dfl
+t;-liga;+smcp;"
 (fontspec)             and font adjustment code:
 (fontspec)             \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font
 (fontspec)             =0\fontdimen 3\font \fontdimen 4\font =0\fontdimen
 (fontspec)             4\font \fontdimen 7\font =0\fontdimen 2\font
 (fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
 (fontspec)             - 'italic' (m/it) with NFSS spec.:
-(fontspec)             <->"[texgyrecursor-italic.otf]/OT:script=latn;language=D
-FLT;-liga;"
-(fontspec)             - 'italic small caps'  (m/itsc) with NFSS spec.:
-(fontspec)             <->"[texgyrecursor-italic.otf]/OT:script=latn;language=D
-FLT;-liga;+smcp;"
+(fontspec)             <->"[texgyrecursor-italic.otf]/OT:script=latn;language=d
+flt;-liga;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->"[texgyrecursor-italic.otf]/OT:script=latn;language=d
+flt;-liga;+smcp;"
 (fontspec)             and font adjustment code:
 (fontspec)             \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font
 (fontspec)             =0\fontdimen 3\font \fontdimen 4\font =0\fontdimen
 (fontspec)             4\font \fontdimen 7\font =0\fontdimen 2\font
 (fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
-(fontspec)             - 'bold italic' (bx/it) with NFSS spec.:
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
 (fontspec)             <->"[texgyrecursor-bolditalic.otf]/OT:script=latn;langua
-ge=DFLT;-liga;"
-(fontspec)             - 'bold italic small caps'  (bx/itsc) with NFSS spec.:
+ge=dflt;-liga;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
 (fontspec)             <->"[texgyrecursor-bolditalic.otf]/OT:script=latn;langua
-ge=DFLT;-liga;+smcp;"
+ge=dflt;-liga;+smcp;"
 (fontspec)             and font adjustment code:
 (fontspec)             \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font
 (fontspec)             =0\fontdimen 3\font \fontdimen 4\font =0\fontdimen
 (fontspec)             4\font \fontdimen 7\font =0\fontdimen 2\font
 (fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
 
-LaTeX Info: Redefining \ttfamily on input line 7.
 
 Package fontspec Info: Font family 'texgyrecursor(1)' created for font
 (fontspec)             'texgyrecursor' with options
@@ -920,35 +732,35 @@ alicFont=*-italic,BoldItalicFont=*-bolditalic,Ligatures=CommonOff].
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
 (fontspec)             <->"[texgyrecursor-regular.otf]/OT:script=latn;language=
-DFLT;-liga;"
+dflt;-liga;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
 (fontspec)             <->"[texgyrecursor-regular.otf]/OT:script=latn;language=
-DFLT;-liga;+smcp;"
-(fontspec)             - 'bold' (bx/n) with NFSS spec.:
-(fontspec)             <->"[texgyrecursor-bold.otf]/OT:script=latn;language=DFL
-T;-liga;"
-(fontspec)             - 'bold small caps'  (bx/sc) with NFSS spec.:
-(fontspec)             <->"[texgyrecursor-bold.otf]/OT:script=latn;language=DFL
-T;-liga;+smcp;"
+dflt;-liga;+smcp;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"[texgyrecursor-bold.otf]/OT:script=latn;language=dfl
+t;-liga;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->"[texgyrecursor-bold.otf]/OT:script=latn;language=dfl
+t;-liga;+smcp;"
 (fontspec)             - 'italic' (m/it) with NFSS spec.:
-(fontspec)             <->"[texgyrecursor-italic.otf]/OT:script=latn;language=D
-FLT;-liga;"
-(fontspec)             - 'italic small caps'  (m/itsc) with NFSS spec.:
-(fontspec)             <->"[texgyrecursor-italic.otf]/OT:script=latn;language=D
-FLT;-liga;+smcp;"
-(fontspec)             - 'bold italic' (bx/it) with NFSS spec.:
+(fontspec)             <->"[texgyrecursor-italic.otf]/OT:script=latn;language=d
+flt;-liga;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->"[texgyrecursor-italic.otf]/OT:script=latn;language=d
+flt;-liga;+smcp;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
 (fontspec)             <->"[texgyrecursor-bolditalic.otf]/OT:script=latn;langua
-ge=DFLT;-liga;"
-(fontspec)             - 'bold italic small caps'  (bx/itsc) with NFSS spec.:
+ge=dflt;-liga;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
 (fontspec)             <->"[texgyrecursor-bolditalic.otf]/OT:script=latn;langua
-ge=DFLT;-liga;+smcp;"
+ge=dflt;-liga;+smcp;"
 
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
 (Font)                  OT1/cmtt/m/n --> TU/texgyrecursor(1)/m/n on input line 
-7.
+4.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/texgyrecursor(1)/bx/n on input line
- 7.
+(Font)                  OT1/cmtt/m/n --> TU/texgyrecursor(1)/b/n on input line 
+4.
 
 Package fontspec Info: Font family 'XITSMath-Regular.otf(0)' created for font
 (fontspec)             'XITSMath-Regular.otf' with options
@@ -959,12 +771,12 @@ Package fontspec Info: Font family 'XITSMath-Regular.otf(0)' created for font
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->"[XITSMath-Regular.otf]/OT:script=math;language=DFLT;
+(fontspec)             <->"[XITSMath-Regular.otf]/OT:script=math;language=dflt;
 "
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
-(fontspec)             - 'bold' (bx/n) with NFSS spec.:
-(fontspec)             <->"[XITSMath-Bold.otf]/OT:script=math;language=DFLT;"
-(fontspec)             - 'bold small caps'  (bx/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"[XITSMath-Bold.otf]/OT:script=math;language=dflt;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
 
 
 Package fontspec Info: Font family 'XITSMath-Regular.otf(1)' created for font
@@ -979,24 +791,24 @@ hScriptScript}},BoldFont={XITSMath-Bold.otf}].
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
 (fontspec)             <10.539375->"[XITSMath-Regular.otf]/OT:script=math;langu
-age=DFLT;"<8.130375-10.539375>"[XITSMath-Regular.otf]/OT:script=math;language=D
-FLT;+ssty=0;"<-8.130375>"[XITSMath-Regular.otf]/OT:script=math;language=DFLT;+s
+age=dflt;"<8.130375-10.539375>"[XITSMath-Regular.otf]/OT:script=math;language=d
+flt;+ssty=0;"<-8.130375>"[XITSMath-Regular.otf]/OT:script=math;language=dflt;+s
 sty=1;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
-(fontspec)             - 'bold' (bx/n) with NFSS spec.:
-(fontspec)             <->"[XITSMath-Bold.otf]/OT:script=math;language=DFLT;"
-(fontspec)             - 'bold small caps'  (bx/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"[XITSMath-Bold.otf]/OT:script=math;language=dflt;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
 
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 7.
+(Font)              `operators' in the math version `normal' on input line 4.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> TU/XITSMath-Regular.otf(1)/m/n on input
- line 7.
+ line 4.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 7.
+(Font)              `operators' in the math version `bold' on input line 4.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/XITSMath-Regular.otf(1)/bx/n on inp
-ut line 7.
+(Font)                  OT1/cmr/bx/n --> TU/XITSMath-Regular.otf(1)/b/n on inpu
+t line 4.
 
 Package fontspec Info: XITSMath-Regular scale = 1.0001.
 
@@ -1036,9 +848,9 @@ hScriptScript}},BoldFont={XITSMath-Bold.otf},ScaleAgain=1.0001,FontAdjustment={
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
 (fontspec)             <10.539375->s*[1.0001]"[XITSMath-Regular.otf]/OT:script=
-math;language=DFLT;"<8.130375-10.539375>s*[1.0001]"[XITSMath-Regular.otf]/OT:sc
-ript=math;language=DFLT;+ssty=0;"<-8.130375>s*[1.0001]"[XITSMath-Regular.otf]/O
-T:script=math;language=DFLT;+ssty=1;"
+math;language=dflt;"<8.130375-10.539375>s*[1.0001]"[XITSMath-Regular.otf]/OT:sc
+ript=math;language=dflt;+ssty=0;"<-8.130375>s*[1.0001]"[XITSMath-Regular.otf]/O
+T:script=math;language=dflt;+ssty=1;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 (fontspec)             and font adjustment code:
 (fontspec)             \fontdimen 8\font =6.9861pt\relax \fontdimen 9\font
@@ -1051,10 +863,10 @@ T:script=math;language=DFLT;+ssty=1;"
 (fontspec)             =4.51688pt\relax \fontdimen 19\font =0.60225pt\relax
 (fontspec)             \fontdimen 22\font =3.01125pt\relax \fontdimen 20\font
 (fontspec)             =0pt\relax \fontdimen 21\font =0pt\relax 
-(fontspec)             - 'bold' (bx/n) with NFSS spec.:
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
 (fontspec)             <->s*[1.0001]"[XITSMath-Bold.otf]/OT:script=math;languag
-e=DFLT;"
-(fontspec)             - 'bold small caps'  (bx/sc) with NFSS spec.: 
+e=dflt;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
 (fontspec)             and font adjustment code:
 (fontspec)             \fontdimen 8\font =6.9861pt\relax \fontdimen 9\font
 (fontspec)             =5.7816pt\relax \fontdimen 10\font =5.7816pt\relax
@@ -1068,15 +880,15 @@ e=DFLT;"
 (fontspec)             =0pt\relax \fontdimen 21\font =0pt\relax 
 
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
-(Font)              `symbols' in the math version `normal' on input line 7.
+(Font)              `symbols' in the math version `normal' on input line 4.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
 (Font)                  OMS/cmsy/m/n --> TU/XITSMath-Regular.otf(2)/m/n on inpu
-t line 7.
+t line 4.
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
-(Font)              `symbols' in the math version `bold' on input line 7.
+(Font)              `symbols' in the math version `bold' on input line 4.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
-(Font)                  OMS/cmsy/b/n --> TU/XITSMath-Regular.otf(2)/bx/n on inp
-ut line 7.
+(Font)                  OMS/cmsy/b/n --> TU/XITSMath-Regular.otf(2)/b/n on inpu
+t line 4.
 
 Package fontspec Info: XITSMath-Regular scale = 0.9999.
 
@@ -1110,19 +922,19 @@ hScriptScript}},BoldFont={XITSMath-Bold.otf},ScaleAgain=0.9999,FontAdjustment={
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
 (fontspec)             <10.539375->s*[0.9999]"[XITSMath-Regular.otf]/OT:script=
-math;language=DFLT;"<8.130375-10.539375>s*[0.9999]"[XITSMath-Regular.otf]/OT:sc
-ript=math;language=DFLT;+ssty=0;"<-8.130375>s*[0.9999]"[XITSMath-Regular.otf]/O
-T:script=math;language=DFLT;+ssty=1;"
+math;language=dflt;"<8.130375-10.539375>s*[0.9999]"[XITSMath-Regular.otf]/OT:sc
+ript=math;language=dflt;+ssty=0;"<-8.130375>s*[0.9999]"[XITSMath-Regular.otf]/O
+T:script=math;language=dflt;+ssty=1;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 (fontspec)             and font adjustment code:
 (fontspec)             \fontdimen 8\font =0.79497pt\relax \fontdimen 9\font
 (fontspec)             =1.80675pt\relax \fontdimen 10\font =1.80675pt\relax
 (fontspec)             \fontdimen 11\font =3.6135pt\relax \fontdimen 12\font
 (fontspec)             =7.227pt\relax \fontdimen 13\font =0pt\relax 
-(fontspec)             - 'bold' (bx/n) with NFSS spec.:
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
 (fontspec)             <->s*[0.9999]"[XITSMath-Bold.otf]/OT:script=math;languag
-e=DFLT;"
-(fontspec)             - 'bold small caps'  (bx/sc) with NFSS spec.: 
+e=dflt;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
 (fontspec)             and font adjustment code:
 (fontspec)             \fontdimen 8\font =0.79497pt\relax \fontdimen 9\font
 (fontspec)             =1.80675pt\relax \fontdimen 10\font =1.80675pt\relax
@@ -1130,22 +942,21 @@ e=DFLT;"
 (fontspec)             =7.227pt\relax \fontdimen 13\font =0pt\relax 
 
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
-(Font)              `largesymbols' in the math version `normal' on input line 7
+(Font)              `largesymbols' in the math version `normal' on input line 4
 .
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
 (Font)                  OMX/cmex/m/n --> TU/XITSMath-Regular.otf(3)/m/n on inpu
-t line 7.
+t line 4.
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
-(Font)              `largesymbols' in the math version `bold' on input line 7.
+(Font)              `largesymbols' in the math version `bold' on input line 4.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
-(Font)                  OMX/cmex/m/n --> TU/XITSMath-Regular.otf(3)/bx/n on inp
-ut line 7.
-
+(Font)                  OMX/cmex/m/n --> TU/XITSMath-Regular.otf(3)/b/n on inpu
+t line 4.
 (/opt/texlive/texdir/texmf-dist/tex/latex/biblatex/biblatex.sty
 Package: biblatex 2019/12/01 v3.14 programmable bibliographies (PK/MW)
 
-(/opt/texlive/texdir/texmf-dist/tex/latex/pdftexcmds/pdftexcmds.sty
-Package: pdftexcmds 2019/11/24 v0.31 Utility functions of pdfTeX for LuaTeX (HO
+(/opt/texlive/texdir/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
 )
 
 (/opt/texlive/texdir/texmf-dist/tex/generic/infwarerr/infwarerr.sty
@@ -1166,7 +977,7 @@ Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
 ))
 (/opt/texlive/texdir/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count327
+\lrq@indent=\count326
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
@@ -1175,61 +986,61 @@ File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 \Urlmuskip=\muskip19
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-\c@tabx@nest=\count328
-\c@listtotal=\count329
-\c@listcount=\count330
-\c@liststart=\count331
-\c@liststop=\count332
-\c@citecount=\count333
-\c@citetotal=\count334
-\c@multicitecount=\count335
-\c@multicitetotal=\count336
-\c@instcount=\count337
-\c@maxnames=\count338
-\c@minnames=\count339
-\c@maxitems=\count340
-\c@minitems=\count341
-\c@citecounter=\count342
-\c@maxcitecounter=\count343
-\c@savedcitecounter=\count344
-\c@uniquelist=\count345
-\c@uniquename=\count346
-\c@refsection=\count347
-\c@refsegment=\count348
-\c@maxextratitle=\count349
-\c@maxextratitleyear=\count350
-\c@maxextraname=\count351
-\c@maxextradate=\count352
-\c@maxextraalpha=\count353
-\c@abbrvpenalty=\count354
-\c@highnamepenalty=\count355
-\c@lownamepenalty=\count356
-\c@maxparens=\count357
-\c@parenlevel=\count358
-\blx@tempcnta=\count359
-\blx@tempcntb=\count360
-\blx@tempcntc=\count361
-\blx@maxsection=\count362
-\blx@maxsegment@0=\count363
-\blx@notetype=\count364
-\blx@parenlevel@text=\count365
-\blx@parenlevel@foot=\count366
-\blx@sectionciteorder@0=\count367
-\blx@entrysetcounter=\count368
-\labelnumberwidth=\skip109
-\labelalphawidth=\skip110
-\biblabelsep=\skip111
-\bibitemsep=\skip112
-\bibnamesep=\skip113
-\bibinitsep=\skip114
-\bibparsep=\skip115
-\bibhang=\skip116
+\c@tabx@nest=\count327
+\c@listtotal=\count328
+\c@listcount=\count329
+\c@liststart=\count330
+\c@liststop=\count331
+\c@citecount=\count332
+\c@citetotal=\count333
+\c@multicitecount=\count334
+\c@multicitetotal=\count335
+\c@instcount=\count336
+\c@maxnames=\count337
+\c@minnames=\count338
+\c@maxitems=\count339
+\c@minitems=\count340
+\c@citecounter=\count341
+\c@maxcitecounter=\count342
+\c@savedcitecounter=\count343
+\c@uniquelist=\count344
+\c@uniquename=\count345
+\c@refsection=\count346
+\c@refsegment=\count347
+\c@maxextratitle=\count348
+\c@maxextratitleyear=\count349
+\c@maxextraname=\count350
+\c@maxextradate=\count351
+\c@maxextraalpha=\count352
+\c@abbrvpenalty=\count353
+\c@highnamepenalty=\count354
+\c@lownamepenalty=\count355
+\c@maxparens=\count356
+\c@parenlevel=\count357
+\blx@tempcnta=\count358
+\blx@tempcntb=\count359
+\blx@tempcntc=\count360
+\blx@maxsection=\count361
+\blx@maxsegment@0=\count362
+\blx@notetype=\count363
+\blx@parenlevel@text=\count364
+\blx@parenlevel@foot=\count365
+\blx@sectionciteorder@0=\count366
+\blx@entrysetcounter=\count367
+\labelnumberwidth=\skip105
+\labelalphawidth=\skip106
+\biblabelsep=\skip107
+\bibitemsep=\skip108
+\bibnamesep=\skip109
+\bibinitsep=\skip110
+\bibparsep=\skip111
+\bibhang=\skip112
 \blx@bcfin=\read2
 \blx@bcfout=\write3
-\blx@langwohyphens=\language85
-\c@mincomprange=\count369
-\c@maxcomprange=\count370
-\c@mincompwidth=\count371
+\blx@langwohyphens=\language86
+\c@mincomprange=\count368
+\c@maxcomprange=\count369
+\c@mincompwidth=\count370
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
@@ -1240,88 +1051,88 @@ Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'gb7714-2015.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count372
-\c@savedafterword=\count373
-\c@annotator=\count374
-\c@savedannotator=\count375
-\c@author=\count376
-\c@savedauthor=\count377
-\c@bookauthor=\count378
-\c@savedbookauthor=\count379
-\c@commentator=\count380
-\c@savedcommentator=\count381
-\c@editor=\count382
-\c@savededitor=\count383
-\c@editora=\count384
-\c@savededitora=\count385
-\c@editorb=\count386
-\c@savededitorb=\count387
-\c@editorc=\count388
-\c@savededitorc=\count389
-\c@foreword=\count390
-\c@savedforeword=\count391
-\c@holder=\count392
-\c@savedholder=\count393
-\c@introduction=\count394
-\c@savedintroduction=\count395
-\c@namea=\count396
-\c@savednamea=\count397
-\c@nameb=\count398
-\c@savednameb=\count399
-\c@namec=\count400
-\c@savednamec=\count401
-\c@translator=\count402
-\c@savedtranslator=\count403
-\c@shortauthor=\count404
-\c@savedshortauthor=\count405
-\c@shorteditor=\count406
-\c@savedshorteditor=\count407
-\c@labelname=\count408
-\c@savedlabelname=\count409
-\c@institution=\count410
-\c@savedinstitution=\count411
-\c@lista=\count412
-\c@savedlista=\count413
-\c@listb=\count414
-\c@savedlistb=\count415
-\c@listc=\count416
-\c@savedlistc=\count417
-\c@listd=\count418
-\c@savedlistd=\count419
-\c@liste=\count420
-\c@savedliste=\count421
-\c@listf=\count422
-\c@savedlistf=\count423
-\c@location=\count424
-\c@savedlocation=\count425
-\c@organization=\count426
-\c@savedorganization=\count427
-\c@origlocation=\count428
-\c@savedoriglocation=\count429
-\c@origpublisher=\count430
-\c@savedorigpublisher=\count431
-\c@publisher=\count432
-\c@savedpublisher=\count433
-\c@language=\count434
-\c@savedlanguage=\count435
-\c@origlanguage=\count436
-\c@savedoriglanguage=\count437
-\c@pageref=\count438
-\c@savedpageref=\count439
-\shorthandwidth=\skip117
-\shortjournalwidth=\skip118
-\shortserieswidth=\skip119
-\shorttitlewidth=\skip120
-\shortauthorwidth=\skip121
-\shorteditorwidth=\skip122
-\locallabelnumberwidth=\skip123
-\locallabelalphawidth=\skip124
-\localshorthandwidth=\skip125
-\localshortjournalwidth=\skip126
-\localshortserieswidth=\skip127
-\localshorttitlewidth=\skip128
-\localshortauthorwidth=\skip129
-\localshorteditorwidth=\skip130
+\c@afterword=\count371
+\c@savedafterword=\count372
+\c@annotator=\count373
+\c@savedannotator=\count374
+\c@author=\count375
+\c@savedauthor=\count376
+\c@bookauthor=\count377
+\c@savedbookauthor=\count378
+\c@commentator=\count379
+\c@savedcommentator=\count380
+\c@editor=\count381
+\c@savededitor=\count382
+\c@editora=\count383
+\c@savededitora=\count384
+\c@editorb=\count385
+\c@savededitorb=\count386
+\c@editorc=\count387
+\c@savededitorc=\count388
+\c@foreword=\count389
+\c@savedforeword=\count390
+\c@holder=\count391
+\c@savedholder=\count392
+\c@introduction=\count393
+\c@savedintroduction=\count394
+\c@namea=\count395
+\c@savednamea=\count396
+\c@nameb=\count397
+\c@savednameb=\count398
+\c@namec=\count399
+\c@savednamec=\count400
+\c@translator=\count401
+\c@savedtranslator=\count402
+\c@shortauthor=\count403
+\c@savedshortauthor=\count404
+\c@shorteditor=\count405
+\c@savedshorteditor=\count406
+\c@labelname=\count407
+\c@savedlabelname=\count408
+\c@institution=\count409
+\c@savedinstitution=\count410
+\c@lista=\count411
+\c@savedlista=\count412
+\c@listb=\count413
+\c@savedlistb=\count414
+\c@listc=\count415
+\c@savedlistc=\count416
+\c@listd=\count417
+\c@savedlistd=\count418
+\c@liste=\count419
+\c@savedliste=\count420
+\c@listf=\count421
+\c@savedlistf=\count422
+\c@location=\count423
+\c@savedlocation=\count424
+\c@organization=\count425
+\c@savedorganization=\count426
+\c@origlocation=\count427
+\c@savedoriglocation=\count428
+\c@origpublisher=\count429
+\c@savedorigpublisher=\count430
+\c@publisher=\count431
+\c@savedpublisher=\count432
+\c@language=\count433
+\c@savedlanguage=\count434
+\c@origlanguage=\count435
+\c@savedoriglanguage=\count436
+\c@pageref=\count437
+\c@savedpageref=\count438
+\shorthandwidth=\skip113
+\shortjournalwidth=\skip114
+\shortserieswidth=\skip115
+\shorttitlewidth=\skip116
+\shortauthorwidth=\skip117
+\shorteditorwidth=\skip118
+\locallabelnumberwidth=\skip119
+\locallabelalphawidth=\skip120
+\localshorthandwidth=\skip121
+\localshortjournalwidth=\skip122
+\localshortserieswidth=\skip123
+\localshorttitlewidth=\skip124
+\localshortauthorwidth=\skip125
+\localshorteditorwidth=\skip126
 Package biblatex Info: Trying to load enhanced support for Unicode engines...
 Package biblatex Info: ... file 'blx-unicode.def' found.
 
@@ -1337,19 +1148,19 @@ Package biblatex Info: ... file 'biblatex.def' found.
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/biblatex/biblatex.def
 File: biblatex.def 2019/12/01 v3.14 biblatex compatibility (PK/MW)
-\c@textcitecount=\count440
-\c@textcitetotal=\count441
-\c@textcitemaxnames=\count442
-\c@biburlbigbreakpenalty=\count443
-\c@biburlbreakpenalty=\count444
-\c@biburlnumpenalty=\count445
-\c@biburlucpenalty=\count446
-\c@biburllcpenalty=\count447
+\c@textcitecount=\count439
+\c@textcitetotal=\count440
+\c@textcitemaxnames=\count441
+\c@biburlbigbreakpenalty=\count442
+\c@biburlbreakpenalty=\count443
+\c@biburlnumpenalty=\count444
+\c@biburlucpenalty=\count445
+\c@biburllcpenalty=\count446
 \biburlbigskip=\muskip20
 \biburlnumskip=\muskip21
 \biburlucskip=\muskip22
 \biburllcskip=\muskip23
-\c@smartand=\count448
+\c@smartand=\count447
 )
 Package biblatex Info: Trying to load natbib compatibility...
 Package biblatex Info: ... file 'blx-natbib.def' found.
@@ -1363,7 +1174,7 @@ Package biblatex Info: Trying to load bibliography style 'gb7714-2015'...
 Package biblatex Info: ... file 'gb7714-2015.bbx' found.
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/biblatex-gb7714-2015/gb7714-2015.bbx
-File: gb7714-2015.bbx 2019/08/28 v1.0sbiblatex bibliography style
+File: gb7714-2015.bbx 2020/07/21 v1.0vbiblatex bibliography style
 Package biblatex Info: Trying to load bibliography style 'numeric-comp'...
 Package biblatex Info: ... file 'numeric-comp.bbx' found.
 
@@ -1379,14 +1190,14 @@ Package biblatex Info: ... file 'standard.bbx' found.
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
 File: standard.bbx 2019/12/01 v3.14 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count449
-\c@bbx:relatedtotal=\count450
+\c@bbx:relatedcount=\count448
+\c@bbx:relatedtotal=\count449
 )))
 (/opt/texlive/texdir/texmf-dist/tex/generic/xstring/xstring.sty
 (/opt/texlive/texdir/texmf-dist/tex/generic/xstring/xstring.tex
-\integerpart=\count451
+\integerpart=\count450
 Invalid UTF-8 byte or sequence at line 35 replaced by U+FFFD.
-\decimalpart=\count452
+\decimalpart=\count451
 Invalid UTF-8 byte or sequence at line 79 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 79 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 83 replaced by U+FFFD.
@@ -1525,13 +1336,15 @@ Invalid UTF-8 byte or sequence at line 1006 replaced by U+FFFD.
 )
 Package: xstring 2019/02/06 v1.83 String manipulations (CT)
 )
-\footbibmargin=\skip131
-\footbiblabelsep=\skip132
-\c@gbnamefmtcase=\count453
-\c@gbalignlabel=\count454
-\c@gbcitelocalcase=\count455
-\c@gbbiblocalcase=\count456
-\bibitemindent=\skip133
+\footbibmargin=\skip127
+\footbiblabelsep=\skip128
+\c@gbnamefmtcase=\count452
+\c@gbalignlabel=\count453
+\c@gbcitelocalcase=\count454
+\c@gbbiblocalcase=\count455
+\c@lanordernum=\count456
+\bibitemindent=\skip129
+\biblabelextend=\skip130
 Package biblatex Info: Delimiter 'finalnamedelim' in context '' already defined
 , overwriting.
 )
@@ -1539,7 +1352,7 @@ Package biblatex Info: Trying to load citation style 'gb7714-2015'...
 Package biblatex Info: ... file 'gb7714-2015.cbx' found.
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/biblatex-gb7714-2015/gb7714-2015.cbx
-File: gb7714-2015.cbx 2019/08/28 v1.0sbiblatex citation style
+File: gb7714-2015.cbx 2020/07/21 v1.0vbiblatex citation style
 Package biblatex Info: Trying to load citation style 'numeric-comp'...
 Package biblatex Info: ... file 'numeric-comp.cbx' found.
 
@@ -1561,6 +1374,7 @@ Package biblatex Info: Redefining '\smartcites'.
 )
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\cbx@textcite'.
 
 
 Package biblatex Warning: Redefining '\citet'.
@@ -1575,7 +1389,7 @@ Package biblatex Info: ... file 'biblatex.cfg' found.
 File: biblatex.cfg 
 ))
 (/opt/texlive/texdir/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2019/11/10 v7.00c Hypertext links for LaTeX
+Package: hyperref 2020-05-15 v7.00e Hypertext links for LaTeX
 
 (/opt/texlive/texdir/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
@@ -1584,26 +1398,20 @@ Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
 )
 (/opt/texlive/texdir/texmf-dist/tex/latex/hycolor/hycolor.sty
-Package: hycolor 2019/12/15 v1.9 Color options for hyperref/bookmark (HO)
-
-(/opt/texlive/texdir/texmf-dist/tex/latex/hycolor/xcolor-patch.sty
-Package: xcolor-patch 2019/12/15 xcolor patch
-
-(/opt/texlive/texdir/texmf-dist/tex/latex/oberdiek/hopatch.sty
-Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
-)))
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
 (/opt/texlive/texdir/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
 Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
 )
 (/opt/texlive/texdir/texmf-dist/tex/latex/auxhook/auxhook.sty
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 )
-\@linkdim=\dimen268
+\@linkdim=\dimen262
 \Hy@linkcounter=\count459
 \Hy@pagecounter=\count460
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2019/11/10 v7.00c Hyperref: PDFDocEncoding definition (HO)
+File: pd1enc.def 2020-05-15 v7.00e Hyperref: PDFDocEncoding definition (HO)
 )
 (/opt/texlive/texdir/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
@@ -1612,25 +1420,21 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
 \Hy@SavedSpaceFactor=\count461
-
-(/opt/texlive/texdir/texmf-dist/tex/latex/latexconfig/hyperref.cfg
-File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
-)
-Package hyperref Info: Option `unicode' set `true' on input line 4409.
+Package hyperref Info: Option `unicode' set `true' on input line 4338.
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/hyperref/puenc.def
-File: puenc.def 2019/11/10 v7.00c Hyperref: PDF Unicode definition (HO)
+File: puenc.def 2020-05-15 v7.00e Hyperref: PDF Unicode definition (HO)
 )
-Package hyperref Info: Hyper figures OFF on input line 4535.
-Package hyperref Info: Link nesting OFF on input line 4540.
-Package hyperref Info: Hyper index ON on input line 4543.
-Package hyperref Info: Plain pages OFF on input line 4550.
-Package hyperref Info: Backreferencing OFF on input line 4555.
+Package hyperref Info: Hyper figures OFF on input line 4464.
+Package hyperref Info: Link nesting OFF on input line 4469.
+Package hyperref Info: Hyper index ON on input line 4472.
+Package hyperref Info: Plain pages OFF on input line 4479.
+Package hyperref Info: Backreferencing OFF on input line 4484.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4788.
+Package hyperref Info: Bookmarks ON on input line 4717.
 \c@Hy@tempcnt=\count462
-LaTeX Info: Redefining \url on input line 5147.
-\XeTeXLinkMargin=\dimen269
+LaTeX Info: Redefining \url on input line 5076.
+\XeTeXLinkMargin=\dimen263
 
 (/opt/texlive/texdir/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
@@ -1640,17 +1444,17 @@ Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
 \Fld@menulength=\count463
-\Field@Width=\dimen270
-\Fld@charsize=\dimen271
-Package hyperref Info: Hyper figures OFF on input line 6418.
-Package hyperref Info: Link nesting OFF on input line 6423.
-Package hyperref Info: Hyper index ON on input line 6426.
-Package hyperref Info: backreferencing OFF on input line 6433.
-Package hyperref Info: Link coloring OFF on input line 6438.
-Package hyperref Info: Link coloring with OCG OFF on input line 6443.
-Package hyperref Info: PDF/A mode OFF on input line 6448.
-LaTeX Info: Redefining \ref on input line 6488.
-LaTeX Info: Redefining \pageref on input line 6492.
+\Field@Width=\dimen264
+\Fld@charsize=\dimen265
+Package hyperref Info: Hyper figures OFF on input line 6347.
+Package hyperref Info: Link nesting OFF on input line 6352.
+Package hyperref Info: Hyper index ON on input line 6355.
+Package hyperref Info: backreferencing OFF on input line 6362.
+Package hyperref Info: Link coloring OFF on input line 6367.
+Package hyperref Info: Link coloring with OCG OFF on input line 6372.
+Package hyperref Info: PDF/A mode OFF on input line 6377.
+LaTeX Info: Redefining \ref on input line 6417.
+LaTeX Info: Redefining \pageref on input line 6421.
 
 (/opt/texlive/texdir/texmf-dist/tex/generic/atbegshi/atbegshi.sty
 Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
@@ -1662,13 +1466,13 @@ Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
 Package hyperref Info: Driver (autodetected): hxetex.
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/hyperref/hxetex.def
-File: hxetex.def 2019/11/10 v7.00c Hyperref driver for XeTeX
+File: hxetex.def 2020-05-15 v7.00e Hyperref driver for XeTeX
 
 (/opt/texlive/texdir/texmf-dist/tex/generic/stringenc/stringenc.sty
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 )
 )
-\pdfm@box=\box63
+\pdfm@box=\box55
 \c@Hy@AnnotLevel=\count467
 \HyField@AnnotCount=\count468
 \Fld@listcount=\count469
@@ -1686,10 +1490,36 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 86.
 )
-\Hy@SectionHShift=\skip134
+\Hy@SectionHShift=\skip131
 )
-Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 7.
-Package hyperref Info: Option `colorlinks' set `true' on input line 7.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 4.
+Package hyperref Info: Option `colorlinks' set `true' on input line 4.
+\@quotelevel=\count471
+\@quotereset=\count472
+
+(./fduthesis.aux)
+\openout1 = `fduthesis.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
 
 
 Package fontspec Warning: Font "FandolSong-Regular" does not contain requested
@@ -1705,45 +1535,20 @@ oldItalicFont={*-Bold},BoldFont={*-Bold},ItalicFont={*-Regular}].
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->"[FandolSong-Regular.otf]/OT"
+(fontspec)             <->"[FandolSong-Regular.otf]/OT:language=dflt;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
-(fontspec)             - 'bold' (bx/n) with NFSS spec.:
-(fontspec)             <->"[FandolSong-Bold.otf]/OT"
-(fontspec)             - 'bold small caps'  (bx/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"[FandolSong-Bold.otf]/OT:language=dflt;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
 (fontspec)             - 'italic' (m/it) with NFSS spec.:
-(fontspec)             <->"[FandolSong-Regular.otf]/OT"
-(fontspec)             - 'italic small caps'  (m/itsc) with NFSS spec.: 
-(fontspec)             - 'bold italic' (bx/it) with NFSS spec.:
-(fontspec)             <->"[FandolSong-Bold.otf]/OT"
-(fontspec)             - 'bold italic small caps'  (bx/itsc) with NFSS spec.: 
+(fontspec)             <->"[FandolSong-Regular.otf]/OT:language=dflt;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->"[FandolSong-Bold.otf]/OT:language=dflt;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
 
-\@quotelevel=\count471
-\@quotereset=\count472
-(./fduthesis.aux)
-\openout1 = `fduthesis.aux'.
-
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
- ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 7.
+ABD: EverySelectfont initializing macros
+LaTeX Info: Redefining \selectfont on input line 4.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -1783,51 +1588,51 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    Font shape `TU/XITSMath-Regular.otf(2)/m/n' will be
-(Font)              scaled to size 9.0347pt on input line 7.
+(Font)              scaled to size 9.0347pt on input line 4.
 LaTeX Font Info:    Font shape `TU/XITSMath-Regular.otf(2)/m/n' will be
-(Font)              scaled to size 6.00064pt on input line 7.
+(Font)              scaled to size 6.00064pt on input line 4.
 LaTeX Font Info:    Font shape `TU/XITSMath-Regular.otf(2)/m/n' will be
-(Font)              scaled to size 5.00053pt on input line 7.
+(Font)              scaled to size 5.00053pt on input line 4.
 LaTeX Font Info:    Font shape `TU/XITSMath-Regular.otf(3)/m/n' will be
-(Font)              scaled to size 9.03276pt on input line 7.
+(Font)              scaled to size 9.03276pt on input line 4.
 LaTeX Font Info:    Font shape `TU/XITSMath-Regular.otf(3)/m/n' will be
-(Font)              scaled to size 5.99936pt on input line 7.
+(Font)              scaled to size 5.99936pt on input line 4.
 LaTeX Font Info:    Font shape `TU/XITSMath-Regular.otf(3)/m/n' will be
-(Font)              scaled to size 4.99947pt on input line 7.
+(Font)              scaled to size 4.99947pt on input line 4.
 File: fudan-name.pdf Graphic file (type pdf)
 <use fudan-name.pdf>
 LaTeX Font Info:    Font shape `TU/XITSMath-Regular.otf(2)/m/n' will be
-(Font)              scaled to size 18.06941pt on input line 7.
+(Font)              scaled to size 18.06941pt on input line 4.
 LaTeX Font Info:    Font shape `TU/XITSMath-Regular.otf(2)/m/n' will be
-(Font)              scaled to size 15.05785pt on input line 7.
+(Font)              scaled to size 15.05785pt on input line 4.
 LaTeX Font Info:    Font shape `TU/XITSMath-Regular.otf(2)/m/n' will be
-(Font)              scaled to size 12.04628pt on input line 7.
+(Font)              scaled to size 12.04628pt on input line 4.
 LaTeX Font Info:    Font shape `TU/XITSMath-Regular.otf(3)/m/n' will be
-(Font)              scaled to size 18.06555pt on input line 7.
+(Font)              scaled to size 18.06555pt on input line 4.
 LaTeX Font Info:    Font shape `TU/XITSMath-Regular.otf(3)/m/n' will be
-(Font)              scaled to size 15.05463pt on input line 7.
+(Font)              scaled to size 15.05463pt on input line 4.
 LaTeX Font Info:    Font shape `TU/XITSMath-Regular.otf(3)/m/n' will be
-(Font)              scaled to size 12.0437pt on input line 7.
+(Font)              scaled to size 12.0437pt on input line 4.
 LaTeX Font Info:    Font shape `TU/XITSMath-Regular.otf(2)/m/n' will be
-(Font)              scaled to size 14.05399pt on input line 7.
+(Font)              scaled to size 14.05399pt on input line 4.
 LaTeX Font Info:    Font shape `TU/XITSMath-Regular.otf(2)/m/n' will be
-(Font)              scaled to size 10.54048pt on input line 7.
+(Font)              scaled to size 10.54048pt on input line 4.
 LaTeX Font Info:    Font shape `TU/XITSMath-Regular.otf(2)/m/n' will be
-(Font)              scaled to size 7.52892pt on input line 7.
+(Font)              scaled to size 7.52892pt on input line 4.
 LaTeX Font Info:    Font shape `TU/XITSMath-Regular.otf(3)/m/n' will be
-(Font)              scaled to size 14.05098pt on input line 7.
+(Font)              scaled to size 14.05098pt on input line 4.
 LaTeX Font Info:    Font shape `TU/XITSMath-Regular.otf(3)/m/n' will be
-(Font)              scaled to size 10.53824pt on input line 7.
+(Font)              scaled to size 10.53824pt on input line 4.
 LaTeX Font Info:    Font shape `TU/XITSMath-Regular.otf(3)/m/n' will be
-(Font)              scaled to size 7.52731pt on input line 7.
+(Font)              scaled to size 7.52731pt on input line 4.
 LaTeX Font Info:    Font shape `TU/XITSMath-Regular.otf(2)/m/n' will be
-(Font)              scaled to size 9.03471pt on input line 7.
+(Font)              scaled to size 9.03471pt on input line 4.
 LaTeX Font Info:    Font shape `TU/XITSMath-Regular.otf(2)/m/n' will be
-(Font)              scaled to size 7.22777pt on input line 7.
+(Font)              scaled to size 7.22777pt on input line 4.
 LaTeX Font Info:    Font shape `TU/XITSMath-Regular.otf(3)/m/n' will be
-(Font)              scaled to size 9.03278pt on input line 7.
+(Font)              scaled to size 9.03278pt on input line 4.
 LaTeX Font Info:    Font shape `TU/XITSMath-Regular.otf(3)/m/n' will be
-(Font)              scaled to size 7.22623pt on input line 7.
+(Font)              scaled to size 7.22623pt on input line 4.
 [1
 
 
@@ -1846,17 +1651,17 @@ oldItalicFont={*-Bold},BoldFont={*-Bold},ItalicFont={*-Regular}].
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->"[FandolHei-Regular.otf]/OT"
+(fontspec)             <->"[FandolHei-Regular.otf]/OT:language=dflt;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
-(fontspec)             - 'bold' (bx/n) with NFSS spec.:
-(fontspec)             <->"[FandolHei-Bold.otf]/OT"
-(fontspec)             - 'bold small caps'  (bx/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"[FandolHei-Bold.otf]/OT:language=dflt;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
 (fontspec)             - 'italic' (m/it) with NFSS spec.:
-(fontspec)             <->"[FandolHei-Regular.otf]/OT"
-(fontspec)             - 'italic small caps'  (m/itsc) with NFSS spec.: 
-(fontspec)             - 'bold italic' (bx/it) with NFSS spec.:
-(fontspec)             <->"[FandolHei-Bold.otf]/OT"
-(fontspec)             - 'bold italic small caps'  (bx/itsc) with NFSS spec.: 
+(fontspec)             <->"[FandolHei-Regular.otf]/OT:language=dflt;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->"[FandolHei-Bold.otf]/OT:language=dflt;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
 
 [2]
 Package biblatex Info: Trying to load language 'english'...
@@ -1871,13 +1676,14 @@ Package biblatex Info: Automatic encoding selection.
 \openout3 = `fduthesis.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'fduthesis.bbl' not found.
+Package biblatex Info: ... file 'fduthesis.bbl' found.
 
-No file fduthesis.bbl.
-Package biblatex Info: Reference section=0 on input line 7.
-Package biblatex Info: Reference segment=0 on input line 7.
-\AtBeginShipoutBox=\box64
-Package hyperref Info: Link coloring ON on input line 7.
+(./fduthesis.bbl)
+Package biblatex Info: Reference section=0 on input line 4.
+Package biblatex Info: Reference segment=0 on input line 4.
+\AtBeginShipoutBox=\box56
+Package hyperref Info: Link coloring ON on input line 4.
+
 (/opt/texlive/texdir/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 
@@ -1889,9 +1695,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count473
 )
-LaTeX Info: Redefining \ref on input line 7.
-LaTeX Info: Redefining \pageref on input line 7.
-LaTeX Info: Redefining \nameref on input line 7.
+LaTeX Info: Redefining \ref on input line 4.
+LaTeX Info: Redefining \pageref on input line 4.
+LaTeX Info: Redefining \nameref on input line 4.
 (./fduthesis.out) (./fduthesis.out)
 \@outlinefile=\write4
 \openout4 = `fduthesis.out'.
@@ -1906,12 +1712,12 @@ LaTeX Info: Redefining \nameref on input line 7.
 ] [4
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 11.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 9.
  [5]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 11.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 9.
  (./fduthesis.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 11.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 11.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 9.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 9.
 Package rerunfilecheck Info: File `fduthesis.out' has not changed.
 (rerunfilecheck)             Checksum: FE7782BE071058887588D106ADC968B6;276.
 Package logreq Info: Writing requests to 'fduthesis.run.xml'.
@@ -1919,12 +1725,12 @@ Package logreq Info: Writing requests to 'fduthesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 39344 strings out of 492473
- 771977 string characters out of 6131001
- 1447980 words of memory out of 5000000
- 43415 multiletter control sequences out of 15000+600000
- 539084 words of font info for 117 fonts, out of 8000000 for 9000
+ 29787 strings out of 479699
+ 588601 string characters out of 5890755
+ 1480244 words of memory out of 5000000
+ 46629 multiletter control sequences out of 15000+600000
+ 541841 words of font info for 128 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 65i,5n,109p,848b,779s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,5n,112p,848b,779s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on fduthesis.pdf (5 pages).
+Output written on fduthesis.xdv (5 pages, 12772 bytes).

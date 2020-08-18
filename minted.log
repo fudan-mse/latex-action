@@ -1,34 +1,103 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.1.1)  17 APR 2020 11:04
-entering extended mode
- \write18 enabled.
+This is LuaHBTeX, Version 1.12.0 (TeX Live 2020)  (format=lualatex 2020.8.17)  18 AUG 2020 20:23
+ system commands enabled.
  file:line:error style messages enabled.
- %&-line parsing enabled.
 **minted.tex
 (./minted.tex
-LaTeX2e <2019-10-01> patch level 3
+LaTeX2e <2020-02-02> patch level 5
+Lua module: luaotfload-main 2020-05-06 3.14 luaotfload entry point
+Lua module: luaotfload-init 2020-05-06 3.14 luaotfload submodule / initializatio
+n
+Lua module: lualibs 2020-05-01 2.71 ConTeXt Lua standard libraries.
+Lua module: lualibs-extended 2020-05-01 2.71 ConTeXt Lua libraries -- extended c
+ollection.
+Lua module: luaotfload-log 2020-05-06 3.14 luaotfload submodule / logging
+Lua module: luaotfload-parsers 2020-05-06 3.14 luaotfload submodule / filelist
+Lua module: luaotfload-configuration 2020-05-06 3.14 luaotfload submodule / conf
+ig file reader
+luaotfload | conf : Root cache directory is "/opt/texlive/texdir/texmf-var/luate
+x-cache/generic-dev/names".
+luaotfload | init : Loading fontloader "fontloader-2020-05-06.lua" from kpse-res
+olved path "/opt/texlive/texdir/texmf-dist/tex/luatex/luaotfload/fontloader-2020
+-05-06.lua".
+Lua-only attribute luaotfload@noligature = 1
+Lua-only attribute luaotfload@syllabe = 2
+luaotfload | init : Context OpenType loader version 0x1.8e353f7ced917p+1
+Lua module: luaotfload-fallback 2020-05-06 3.14 luaotfload submodule / fallback
+Lua module: luaotfload-multiscript 2020-05-06 3.14 luaotfload submodule / multis
+cript
+Lua module: luaotfload-script 2020-05-06 3.14 luaotfload submodule / Script help
+ers
+Inserting `luaotfload.node_processor' at position 1 in `pre_linebreak_filter'.
+Inserting `luaotfload.node_processor' at position 1 in `hpack_filter'.
+Lua module: luaotfload-loaders 2020-05-06 3.14 luaotfload submodule / callback h
+andling
+Inserting `luaotfload.define_font' at position 1 in `define_font'.
+Lua module: luaotfload-database 2020-05-06 3.14 luaotfload submodule / database
+Lua module: luaotfload-unicode 2020-05-06 3.14 luaotfload submodule / Unicode he
+lpers
+Lua module: luaotfload-colors 2020-05-06 3.14 luaotfload submodule / color
+Lua-only attribute luaotfload_color_attribute = 3
+Lua module: luaotfload-resolvers 2020-05-06 3.14 luaotfload submodule / resolver
+s
+luaotfload | conf : Root cache directory is "/opt/texlive/texdir/texmf-var/luate
+x-cache/generic-dev/names".
+Lua module: luaotfload-features 2020-05-06 3.14 luaotfload submodule / features
+Lua module: luaotfload-harf-define 2020-05-06 3.14 luaotfload submodule / databa
+se
+Inserting `luaotfload.harf.strip_prefix' at position 1 in `find_opentype_file'.
+Inserting `luaotfload.harf.strip_prefix' at position 1 in `find_truetype_file'.
+Lua module: luaotfload-harf-plug 2020-05-06 3.14 luaotfload submodule / database
+Inserting `Harf pre_output_filter callback' at position 1 in `pre_output_filter'
+.
+Inserting `Harf wrapup_run callback' at position 1 in `wrapup_run'.
+Inserting `Harf finish_pdffile callback' at position 1 in `finish_pdffile'.
+Inserting `Harf glyph_info callback' at position 1 in `glyph_info'.
+Lua module: luaotfload-letterspace 2020-05-06 3.14 luaotfload submodule / color
+Lua module: luaotfload-embolden 2020-05-06 3.14 luaotfload submodule / color
+Lua module: luaotfload-notdef 2020-05-06 3.14 luaotfload submodule / color
+Lua module: luaotfload-suppress 2020-05-06 3.14 luaotfload submodule / suppress
+Lua module: luaotfload-szss 2020-05-06 3.14 luaotfload submodule / color
+Lua module: luaotfload-auxiliary 2020-05-06 3.14 luaotfload submodule / auxiliar
+y functions
+Inserting `luaotfload.aux.set_sscale_dimens' at position 1 in `luaotfload.patch_
+font'.
+Inserting `luaotfload.aux.set_font_index' at position 2 in `luaotfload.patch_fon
+t'.
+Inserting `luaotfload.aux.patch_cambria_domh' at position 3 in `luaotfload.patch
+_font'.
+Inserting `luaotfload.aux.fixup_fontdata' at position 1 in `luaotfload.patch_fon
+t_unsafe'.
+Inserting `luaotfload.aux.set_capheight' at position 4 in `luaotfload.patch_font
+'.
+Inserting `luaotfload.aux.set_xheight' at position 5 in `luaotfload.patch_font'.
+Lua module: luaotfload-tounicode 2020-05-06 3.14 luaotfload submodule / tounicod
+e
+Inserting `luaotfload.rewrite_fontname' at position 6 in `luaotfload.patch_font'
+. L3 programming layer <2020-08-07>
 (/opt/texlive/texdir/texmf-dist/tex/latex/base/article.cls
-Document Class: article 2019/10/25 v1.4k Standard LaTeX document class
+Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
 (/opt/texlive/texdir/texmf-dist/tex/latex/base/size10.clo
-File: size10.clo 2019/10/25 v1.4k Standard LaTeX file (size option)
-)
-\c@part=\count80
-\c@section=\count81
-\c@subsection=\count82
-\c@subsubsection=\count83
-\c@paragraph=\count84
-\c@subparagraph=\count85
-\c@figure=\count86
-\c@table=\count87
-\abovecaptionskip=\skip41
-\belowcaptionskip=\skip42
-\bibindent=\dimen102
+File: size10.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+luaotfload | db : Font names database loaded from /opt/texlive/texdir/texmf-var/
+luatex-cache/generic-dev/names/luaotfload-names.luc)
+\c@part=\count164
+\c@section=\count165
+\c@subsection=\count166
+\c@subsubsection=\count167
+\c@paragraph=\count168
+\c@subparagraph=\count169
+\c@figure=\count170
+\c@table=\count171
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen134
 )
 (/opt/texlive/texdir/texmf-dist/tex/latex/minted/minted.sty
 Package: minted 2017/07/19 v2.5 Yet another Pygments shim for LaTeX
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks14
+\KV@toks@=\toks15
 )
 (/opt/texlive/texdir/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
@@ -46,77 +115,78 @@ Package: fvextra 2019/02/04 v1.4 fvextra - extensions and patches for fancyvrb
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
 (/opt/texlive/texdir/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count88
+Package: etoolbox 2020/07/15 v2.5i e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count172
 )
 (/opt/texlive/texdir/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
-Package: fancyvrb 2019/11/09
-
-Style option: `fancyvrb' v3.4 <2019/11/09> (tvz)
-\FV@CodeLineNo=\count89
-\FV@InFile=\read1
-\FV@TabBox=\box27
-\c@FancyVerbLine=\count90
-\FV@StepNumber=\count91
+Package: fancyvrb 2020/05/03 v3.6 verbatim text (tvz,hv)
+\FV@CodeLineNo=\count173
+\FV@InFile=\read2
+\FV@TabBox=\box45
+\c@FancyVerbLine=\count174
+\FV@StepNumber=\count175
 \FV@OutFile=\write3
 )
 (/opt/texlive/texdir/texmf-dist/tex/latex/upquote/upquote.sty
-Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
-tim
-)
+Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verbat
+im
+
+(/opt/texlive/texdir/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+))
 (/opt/texlive/texdir/texmf-dist/tex/latex/lineno/lineno.sty
 Package: lineno 2005/11/02 line numbers on paragraphs v4.41
-\linenopenalty=\count92
-\output=\toks15
-\linenoprevgraf=\count93
-\linenumbersep=\dimen103
-\linenumberwidth=\dimen104
-\c@linenumber=\count94
-\c@pagewiselinenumber=\count95
-\c@LN@truepage=\count96
-\c@internallinenumber=\count97
-\c@internallinenumbers=\count98
-\quotelinenumbersep=\dimen105
-\bframerule=\dimen106
-\bframesep=\dimen107
-\bframebox=\box28
+\linenopenalty=\count176
+\output=\toks16
+\linenoprevgraf=\count177
+\linenumbersep=\dimen135
+\linenumberwidth=\dimen136
+\c@linenumber=\count178
+\c@pagewiselinenumber=\count179
+\c@LN@truepage=\count180
+\c@internallinenumber=\count181
+\c@internallinenumbers=\count182
+\quotelinenumbersep=\dimen137
+\bframerule=\dimen138
+\bframesep=\dimen139
+\bframebox=\box46
 LaTeX Info: Redefining \\ on input line 3056.
 )
-\c@FV@TrueTabGroupLevel=\count99
-\c@FV@TrueTabCounter=\count100
-\FV@TabBox@Group=\box29
-\FV@TmpLength=\skip43
-\c@FV@HighlightLinesStart=\count101
-\c@FV@HighlightLinesStop=\count102
-\FV@LoopCount=\count103
-\FV@NCharsBox=\box30
-\FV@BreakIndent=\dimen108
-\FV@BreakIndentNChars=\count104
-\FV@BreakSymbolSepLeft=\dimen109
-\FV@BreakSymbolSepLeftNChars=\count105
-\FV@BreakSymbolSepRight=\dimen110
-\FV@BreakSymbolSepRightNChars=\count106
-\FV@BreakSymbolIndentLeft=\dimen111
-\FV@BreakSymbolIndentLeftNChars=\count107
-\FV@BreakSymbolIndentRight=\dimen112
-\FV@BreakSymbolIndentRightNChars=\count108
-\c@FancyVerbLineBreakLast=\count109
-\FV@LineBox=\box31
-\FV@LineIndentBox=\box32
-\FV@LineWidth=\dimen113
+\c@FV@TrueTabGroupLevel=\count183
+\c@FV@TrueTabCounter=\count184
+\FV@TabBox@Group=\box47
+\FV@TmpLength=\skip49
+\c@FV@HighlightLinesStart=\count185
+\c@FV@HighlightLinesStop=\count186
+\FV@LoopCount=\count187
+\FV@NCharsBox=\box48
+\FV@BreakIndent=\dimen140
+\FV@BreakIndentNChars=\count188
+\FV@BreakSymbolSepLeft=\dimen141
+\FV@BreakSymbolSepLeftNChars=\count189
+\FV@BreakSymbolSepRight=\dimen142
+\FV@BreakSymbolSepRightNChars=\count190
+\FV@BreakSymbolIndentLeft=\dimen143
+\FV@BreakSymbolIndentLeftNChars=\count191
+\FV@BreakSymbolIndentRight=\dimen144
+\FV@BreakSymbolIndentRightNChars=\count192
+\c@FancyVerbLineBreakLast=\count193
+\FV@LineBox=\box49
+\FV@LineIndentBox=\box50
+\FV@LineWidth=\dimen145
 )
 (/opt/texlive/texdir/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count110
-\calc@Bcount=\count111
-\calc@Adimen=\dimen114
-\calc@Bdimen=\dimen115
-\calc@Askip=\skip44
-\calc@Bskip=\skip45
+\calc@Acount=\count194
+\calc@Bcount=\count195
+\calc@Adimen=\dimen146
+\calc@Bdimen=\dimen147
+\calc@Askip=\skip50
+\calc@Bskip=\skip51
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count112
-\calc@Cskip=\skip46
+\calc@Ccount=\count196
+\calc@Cskip=\skip52
 )
 (/opt/texlive/texdir/texmf-dist/tex/latex/tools/shellesc.sty
 Package: shellesc 2019/11/08 v1.0c unified shell escape interface for LaTeX
@@ -125,19 +195,20 @@ Package shellesc Info: Unrestricted shell escape enabled on input line 75.
 (/opt/texlive/texdir/texmf-dist/tex/latex/ifplatform/ifplatform.sty
 Package: ifplatform 2017/10/13 v0.4a Testing for the operating system
 
-(/opt/texlive/texdir/texmf-dist/tex/latex/pdftexcmds/pdftexcmds.sty
-Package: pdftexcmds 2019/11/24 v0.31 Utility functions of pdfTeX for LuaTeX (HO
-)
+(/opt/texlive/texdir/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+
 
 (/opt/texlive/texdir/texmf-dist/tex/generic/infwarerr/infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
 (/opt/texlive/texdir/texmf-dist/tex/generic/iftex/iftex.sty
-Package: iftex 2019/11/07 v1.0c TeX engine tests
+Package: iftex 2020/03/06 v1.0d TeX engine tests
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
+\pdftexcmds@toks=\toks17
 )
 (/opt/texlive/texdir/texmf-dist/tex/generic/catchfile/catchfile.sty
 Package: catchfile 2019/12/09 v1.8 Catch the contents of a file (HO)
@@ -148,44 +219,41 @@ Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 (/opt/texlive/texdir/texmf-dist/tex/generic/iftex/ifluatex.sty
 Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
 )
-runsystem(uname -s > "minted.w18")...executed.
-
+runsystem(uname -s > "minted.w18")...executed
  (./minted.w18)
-runsystem(rm -- "minted.w18")...executed.
-
+runsystem(rm -- "minted.w18")...executed
 ) (/opt/texlive/texdir/texmf-dist/tex/generic/xstring/xstring.sty
 (/opt/texlive/texdir/texmf-dist/tex/generic/xstring/xstring.tex
-\integerpart=\count113
-\decimalpart=\count114
+\integerpart=\count197
+\decimalpart=\count198
 )
 Package: xstring 2019/02/06 v1.83 String manipulations (CT)
 )
 (/opt/texlive/texdir/texmf-dist/tex/latex/framed/framed.sty
 Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
-\OuterFrameSep=\skip47
-\fb@frw=\dimen116
-\fb@frh=\dimen117
-\FrameRule=\dimen118
-\FrameSep=\dimen119
+\OuterFrameSep=\skip53
+\fb@frw=\dimen148
+\fb@frh=\dimen149
+\FrameRule=\dimen150
+\FrameSep=\dimen151
 )
 (/opt/texlive/texdir/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count115
-\float@exts=\toks16
-\float@box=\box33
-\@float@everytoks=\toks17
-\@floatcapt=\box34
+\c@float@type=\count199
+\float@exts=\toks18
+\float@box=\box51
+\@float@everytoks=\toks19
+\@floatcapt=\box52
 )
-\minted@appexistsfile=\read2
-\minted@bgbox=\box35
+\minted@appexistsfile=\read3
+\minted@bgbox=\box53
 \minted@code=\write4
-\c@minted@FancyVerbLineTemp=\count116
-\c@minted@pygmentizecounter=\count117
-\@float@every@listing=\toks18
-\c@listing=\count118
+\c@minted@FancyVerbLineTemp=\count266
+\c@minted@pygmentizecounter=\count267
+\@float@every@listing=\toks20
+\c@listing=\count268
 )
-runsystem(mkdir -p _minted-minted)...executed.
-
+runsystem(mkdir -p _minted-minted)...executed
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
@@ -193,10 +261,10 @@ Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 (/opt/texlive/texdir/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Driver file: luatex.def on input line 225.
 
-(/opt/texlive/texdir/texmf-dist/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+(/opt/texlive/texdir/texmf-dist/tex/latex/graphics-def/luatex.def
+File: luatex.def 2018/01/08 v1.0l Graphics/color driver for luatex
 )
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
@@ -208,21 +276,33 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 )
-runsystem(which pygmentize && touch minted.aex)...executed.
+runsystem(which pygmentize && touch minted.aex)...executed
+runsystem(rm minted.aex)...executed
 
-runsystem(rm minted.aex)...executed.
-
-
+(/opt/texlive/texdir/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
+File: l3backend-pdfmode.def 2020-08-07 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count269
+\l__pdf_internal_box=\box54
+)
 (./minted.aux)
-\openout1 = `minted.aux'.
+\openout1 = minted.aux
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 3.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
 LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 3.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 3.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 3.
+
+ (/opt/texlive/texdir/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
 LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
@@ -231,47 +311,49 @@ LaTeX Font Info:    ... okay on input line 3.
 
 (/opt/texlive/texdir/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count119
-\scratchdimen=\dimen120
-\scratchbox=\box36
-\nofMPsegments=\count120
-\nofMParguments=\count121
-\everyMPshowfont=\toks19
-\MPscratchCnt=\count122
-\MPscratchDim=\dimen121
-\MPnumerator=\count123
-\makeMPintoPDFobject=\count124
-\everyMPtoPDFconversion=\toks20
+\scratchcounter=\count270
+\scratchdimen=\dimen152
+\scratchbox=\box55
+\nofMPsegments=\count271
+\nofMParguments=\count272
+\everyMPshowfont=\toks21
+\MPscratchCnt=\count273
+\MPscratchDim=\dimen153
+\MPnumerator=\count274
+\makeMPintoPDFobject=\count275
+\everyMPtoPDFconversion=\toks22
 )
-\openout3 = `minted.pyg'.
-
+\openout3 = minted.pyg
  (./_minted-minted/default-pyg-prefix.pygstyle)
 (./_minted-minted/default.pygstyle)
 (./_minted-minted/0DB714F52CB041FAC8BE2E4F2EE038F7B4D3B34EEC19E338E90A1280BF944
 177.pygtex
-LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <10> not available
-(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 2.
+LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <10> not available
+(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 2.
 ) [1
 
 {/opt/texlive/texdir/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./minted.a
 ux)
-runsystem(rm minted.pyg)...executed.
+runsystem(rm minted.pyg)...executed
+)
 
- ) 
-Here is how much of TeX's memory you used:
- 4785 strings out of 492163
- 85202 string characters out of 6127188
- 194133 words of memory out of 5000000
- 9113 multiletter control sequences out of 15000+600000
- 3808 words of font info for 15 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 40i,5n,37p,837b,320s stack positions out of 5000i,500n,10000p,200000b,80000s
-</opt/texlive/texdir/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></op
-t/texlive/texdir/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on minted.pdf (1 page, 20392 bytes).
-PDF statistics:
- 16 PDF objects out of 1000 (max. 8388607)
- 10 compressed objects within 1 object stream
- 0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+Here is how much of LuaTeX's memory you used:
+ 5165 strings out of 481302
+ 125171,460012 words of node,token memory allocated
+ 411 words of node memory still in use:
+   3 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 1 glyph, 4 attribute, 49 glue_spec,
+ 4 attribute_list, 1 write nodes
+   avail lists: 1:1,2:101,3:5,4:15,5:29,6:2,7:72,9:16
+ 22164 multiletter control sequences out of 65536+600000
+ 28 fonts using 3636971 bytes
+ 50i,5n,41p,836b,314s stack positions out of 5000i,500n,10000p,200000b,100000s
+</opt/texlive/texdir/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf><
+/opt/texlive/texdir/texmf-dist/fonts/opentype/public/lm/lmmono10-regular.otf></o
+pt/texlive/texdir/texmf-dist/fonts/opentype/public/lm/lmmonolt10-bold.otf>
+Output written on minted.pdf (1 page, 7692 bytes).
+
+PDF statistics: 29 PDF objects out of 1000 (max. 8388607)
+ 16 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 131072)
+ 1 words of extra memory for PDF output out of 10000 (max. 100000000)
 

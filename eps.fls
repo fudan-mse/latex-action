@@ -20,6 +20,8 @@ INPUT /opt/texlive/texdir/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 INPUT /opt/texlive/texdir/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 INPUT /opt/texlive/texdir/texmf-dist/tex/latex/graphics-def/pdftex.def
 INPUT /opt/texlive/texdir/texmf-dist/tex/latex/graphics-def/pdftex.def
+INPUT /opt/texlive/texdir/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
+INPUT /opt/texlive/texdir/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
 INPUT eps.aux
 INPUT eps.aux
 OUTPUT eps.aux

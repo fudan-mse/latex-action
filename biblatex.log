@@ -1,40 +1,41 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.1.1)  17 APR 2020 11:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.8.17)  18 AUG 2020 20:23
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
 **biblatex.tex
 (./biblatex.tex
-LaTeX2e <2019-10-01> patch level 3
+LaTeX2e <2020-02-02> patch level 5
+L3 programming layer <2020-08-07>
 (/opt/texlive/texdir/texmf-dist/tex/latex/base/article.cls
-Document Class: article 2019/10/25 v1.4k Standard LaTeX document class
+Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
 (/opt/texlive/texdir/texmf-dist/tex/latex/base/size10.clo
-File: size10.clo 2019/10/25 v1.4k Standard LaTeX file (size option)
+File: size10.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
 )
-\c@part=\count80
-\c@section=\count81
-\c@subsection=\count82
-\c@subsubsection=\count83
-\c@paragraph=\count84
-\c@subparagraph=\count85
-\c@figure=\count86
-\c@table=\count87
-\abovecaptionskip=\skip41
-\belowcaptionskip=\skip42
-\bibindent=\dimen102
+\c@part=\count168
+\c@section=\count169
+\c@subsection=\count170
+\c@subsubsection=\count171
+\c@paragraph=\count172
+\c@subparagraph=\count173
+\c@figure=\count174
+\c@table=\count175
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen134
 )
 (/opt/texlive/texdir/texmf-dist/tex/latex/biblatex/biblatex.sty
 Package: biblatex 2019/12/01 v3.14 programmable bibliographies (PK/MW)
 
-(/opt/texlive/texdir/texmf-dist/tex/latex/pdftexcmds/pdftexcmds.sty
-Package: pdftexcmds 2019/11/24 v0.31 Utility functions of pdfTeX for LuaTeX (HO
+(/opt/texlive/texdir/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
 )
 
 (/opt/texlive/texdir/texmf-dist/tex/generic/infwarerr/infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
 (/opt/texlive/texdir/texmf-dist/tex/generic/iftex/iftex.sty
-Package: iftex 2019/11/07 v1.0c TeX engine tests
+Package: iftex 2020/03/06 v1.0d TeX engine tests
 )
 (/opt/texlive/texdir/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
 Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
@@ -44,12 +45,12 @@ Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
 (/opt/texlive/texdir/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count88
+Package: etoolbox 2020/07/15 v2.5i e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count176
 )
 (/opt/texlive/texdir/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks14
+\KV@toks@=\toks15
 )
 (/opt/texlive/texdir/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
@@ -59,7 +60,7 @@ Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
 ))
 (/opt/texlive/texdir/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count89
+\lrq@indent=\count177
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
@@ -68,64 +69,64 @@ File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
 (/opt/texlive/texdir/texmf-dist/tex/latex/url/url.sty
-\Urlmuskip=\muskip10
+\Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-\c@tabx@nest=\count90
-\c@listtotal=\count91
-\c@listcount=\count92
-\c@liststart=\count93
-\c@liststop=\count94
-\c@citecount=\count95
-\c@citetotal=\count96
-\c@multicitecount=\count97
-\c@multicitetotal=\count98
-\c@instcount=\count99
-\c@maxnames=\count100
-\c@minnames=\count101
-\c@maxitems=\count102
-\c@minitems=\count103
-\c@citecounter=\count104
-\c@maxcitecounter=\count105
-\c@savedcitecounter=\count106
-\c@uniquelist=\count107
-\c@uniquename=\count108
-\c@refsection=\count109
-\c@refsegment=\count110
-\c@maxextratitle=\count111
-\c@maxextratitleyear=\count112
-\c@maxextraname=\count113
-\c@maxextradate=\count114
-\c@maxextraalpha=\count115
-\c@abbrvpenalty=\count116
-\c@highnamepenalty=\count117
-\c@lownamepenalty=\count118
-\c@maxparens=\count119
-\c@parenlevel=\count120
-\blx@tempcnta=\count121
-\blx@tempcntb=\count122
-\blx@tempcntc=\count123
-\blx@maxsection=\count124
-\blx@maxsegment@0=\count125
-\blx@notetype=\count126
-\blx@parenlevel@text=\count127
-\blx@parenlevel@foot=\count128
-\blx@sectionciteorder@0=\count129
-\blx@entrysetcounter=\count130
-\labelnumberwidth=\skip43
-\labelalphawidth=\skip44
-\biblabelsep=\skip45
-\bibitemsep=\skip46
-\bibnamesep=\skip47
-\bibinitsep=\skip48
-\bibparsep=\skip49
-\bibhang=\skip50
-\blx@bcfin=\read1
+\c@tabx@nest=\count178
+\c@listtotal=\count179
+\c@listcount=\count180
+\c@liststart=\count181
+\c@liststop=\count182
+\c@citecount=\count183
+\c@citetotal=\count184
+\c@multicitecount=\count185
+\c@multicitetotal=\count186
+\c@instcount=\count187
+\c@maxnames=\count188
+\c@minnames=\count189
+\c@maxitems=\count190
+\c@minitems=\count191
+\c@citecounter=\count192
+\c@maxcitecounter=\count193
+\c@savedcitecounter=\count194
+\c@uniquelist=\count195
+\c@uniquename=\count196
+\c@refsection=\count197
+\c@refsegment=\count198
+\c@maxextratitle=\count199
+\c@maxextratitleyear=\count266
+\c@maxextraname=\count267
+\c@maxextradate=\count268
+\c@maxextraalpha=\count269
+\c@abbrvpenalty=\count270
+\c@highnamepenalty=\count271
+\c@lownamepenalty=\count272
+\c@maxparens=\count273
+\c@parenlevel=\count274
+\blx@tempcnta=\count275
+\blx@tempcntb=\count276
+\blx@tempcntc=\count277
+\blx@maxsection=\count278
+\blx@maxsegment@0=\count279
+\blx@notetype=\count280
+\blx@parenlevel@text=\count281
+\blx@parenlevel@foot=\count282
+\blx@sectionciteorder@0=\count283
+\blx@entrysetcounter=\count284
+\labelnumberwidth=\skip49
+\labelalphawidth=\skip50
+\biblabelsep=\skip51
+\bibitemsep=\skip52
+\bibnamesep=\skip53
+\bibinitsep=\skip54
+\bibparsep=\skip55
+\bibhang=\skip56
+\blx@bcfin=\read2
 \blx@bcfout=\write3
-\blx@langwohyphens=\language85
-\c@mincomprange=\count131
-\c@maxcomprange=\count132
-\c@mincompwidth=\count133
+\blx@langwohyphens=\language86
+\c@mincomprange=\count285
+\c@maxcomprange=\count286
+\c@mincompwidth=\count287
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
@@ -136,88 +137,88 @@ Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'ieee.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count134
-\c@savedafterword=\count135
-\c@annotator=\count136
-\c@savedannotator=\count137
-\c@author=\count138
-\c@savedauthor=\count139
-\c@bookauthor=\count140
-\c@savedbookauthor=\count141
-\c@commentator=\count142
-\c@savedcommentator=\count143
-\c@editor=\count144
-\c@savededitor=\count145
-\c@editora=\count146
-\c@savededitora=\count147
-\c@editorb=\count148
-\c@savededitorb=\count149
-\c@editorc=\count150
-\c@savededitorc=\count151
-\c@foreword=\count152
-\c@savedforeword=\count153
-\c@holder=\count154
-\c@savedholder=\count155
-\c@introduction=\count156
-\c@savedintroduction=\count157
-\c@namea=\count158
-\c@savednamea=\count159
-\c@nameb=\count160
-\c@savednameb=\count161
-\c@namec=\count162
-\c@savednamec=\count163
-\c@translator=\count164
-\c@savedtranslator=\count165
-\c@shortauthor=\count166
-\c@savedshortauthor=\count167
-\c@shorteditor=\count168
-\c@savedshorteditor=\count169
-\c@labelname=\count170
-\c@savedlabelname=\count171
-\c@institution=\count172
-\c@savedinstitution=\count173
-\c@lista=\count174
-\c@savedlista=\count175
-\c@listb=\count176
-\c@savedlistb=\count177
-\c@listc=\count178
-\c@savedlistc=\count179
-\c@listd=\count180
-\c@savedlistd=\count181
-\c@liste=\count182
-\c@savedliste=\count183
-\c@listf=\count184
-\c@savedlistf=\count185
-\c@location=\count186
-\c@savedlocation=\count187
-\c@organization=\count188
-\c@savedorganization=\count189
-\c@origlocation=\count190
-\c@savedoriglocation=\count191
-\c@origpublisher=\count192
-\c@savedorigpublisher=\count193
-\c@publisher=\count194
-\c@savedpublisher=\count195
-\c@language=\count196
-\c@savedlanguage=\count197
-\c@origlanguage=\count198
-\c@savedoriglanguage=\count199
-\c@pageref=\count266
-\c@savedpageref=\count267
-\shorthandwidth=\skip51
-\shortjournalwidth=\skip52
-\shortserieswidth=\skip53
-\shorttitlewidth=\skip54
-\shortauthorwidth=\skip55
-\shorteditorwidth=\skip56
-\locallabelnumberwidth=\skip57
-\locallabelalphawidth=\skip58
-\localshorthandwidth=\skip59
-\localshortjournalwidth=\skip60
-\localshortserieswidth=\skip61
-\localshorttitlewidth=\skip62
-\localshortauthorwidth=\skip63
-\localshorteditorwidth=\skip64
+\c@afterword=\count288
+\c@savedafterword=\count289
+\c@annotator=\count290
+\c@savedannotator=\count291
+\c@author=\count292
+\c@savedauthor=\count293
+\c@bookauthor=\count294
+\c@savedbookauthor=\count295
+\c@commentator=\count296
+\c@savedcommentator=\count297
+\c@editor=\count298
+\c@savededitor=\count299
+\c@editora=\count300
+\c@savededitora=\count301
+\c@editorb=\count302
+\c@savededitorb=\count303
+\c@editorc=\count304
+\c@savededitorc=\count305
+\c@foreword=\count306
+\c@savedforeword=\count307
+\c@holder=\count308
+\c@savedholder=\count309
+\c@introduction=\count310
+\c@savedintroduction=\count311
+\c@namea=\count312
+\c@savednamea=\count313
+\c@nameb=\count314
+\c@savednameb=\count315
+\c@namec=\count316
+\c@savednamec=\count317
+\c@translator=\count318
+\c@savedtranslator=\count319
+\c@shortauthor=\count320
+\c@savedshortauthor=\count321
+\c@shorteditor=\count322
+\c@savedshorteditor=\count323
+\c@labelname=\count324
+\c@savedlabelname=\count325
+\c@institution=\count326
+\c@savedinstitution=\count327
+\c@lista=\count328
+\c@savedlista=\count329
+\c@listb=\count330
+\c@savedlistb=\count331
+\c@listc=\count332
+\c@savedlistc=\count333
+\c@listd=\count334
+\c@savedlistd=\count335
+\c@liste=\count336
+\c@savedliste=\count337
+\c@listf=\count338
+\c@savedlistf=\count339
+\c@location=\count340
+\c@savedlocation=\count341
+\c@organization=\count342
+\c@savedorganization=\count343
+\c@origlocation=\count344
+\c@savedoriglocation=\count345
+\c@origpublisher=\count346
+\c@savedorigpublisher=\count347
+\c@publisher=\count348
+\c@savedpublisher=\count349
+\c@language=\count350
+\c@savedlanguage=\count351
+\c@origlanguage=\count352
+\c@savedoriglanguage=\count353
+\c@pageref=\count354
+\c@savedpageref=\count355
+\shorthandwidth=\skip57
+\shortjournalwidth=\skip58
+\shortserieswidth=\skip59
+\shorttitlewidth=\skip60
+\shortauthorwidth=\skip61
+\shorteditorwidth=\skip62
+\locallabelnumberwidth=\skip63
+\locallabelalphawidth=\skip64
+\localshorthandwidth=\skip65
+\localshortjournalwidth=\skip66
+\localshortserieswidth=\skip67
+\localshorttitlewidth=\skip68
+\localshortauthorwidth=\skip69
+\localshorteditorwidth=\skip70
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
 
@@ -229,25 +230,25 @@ Package biblatex Info: ... file 'biblatex.def' found.
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/biblatex/biblatex.def
 File: biblatex.def 2019/12/01 v3.14 biblatex compatibility (PK/MW)
-\c@textcitecount=\count268
-\c@textcitetotal=\count269
-\c@textcitemaxnames=\count270
-\c@biburlbigbreakpenalty=\count271
-\c@biburlbreakpenalty=\count272
-\c@biburlnumpenalty=\count273
-\c@biburlucpenalty=\count274
-\c@biburllcpenalty=\count275
-\biburlbigskip=\muskip11
-\biburlnumskip=\muskip12
-\biburlucskip=\muskip13
-\biburllcskip=\muskip14
-\c@smartand=\count276
+\c@textcitecount=\count356
+\c@textcitetotal=\count357
+\c@textcitemaxnames=\count358
+\c@biburlbigbreakpenalty=\count359
+\c@biburlbreakpenalty=\count360
+\c@biburlnumpenalty=\count361
+\c@biburlucpenalty=\count362
+\c@biburllcpenalty=\count363
+\biburlbigskip=\muskip17
+\biburlnumskip=\muskip18
+\biburlucskip=\muskip19
+\biburllcskip=\muskip20
+\c@smartand=\count364
 )
 Package biblatex Info: Trying to load bibliography style 'ieee'...
 Package biblatex Info: ... file 'ieee.bbx' found.
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/biblatex-ieee/ieee.bbx
-File: ieee.bbx 2019/06/19 v1.3a biblatex bibliography style
+File: ieee.bbx 2020/02/26 v1.3b biblatex bibliography style
 Package biblatex Info: Trying to load bibliography style 'numeric-comp'...
 Package biblatex Info: ... file 'numeric-comp.bbx' found.
 
@@ -263,21 +264,21 @@ Package biblatex Info: ... file 'standard.bbx' found.
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
 File: standard.bbx 2019/12/01 v3.14 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count277
-\c@bbx:relatedtotal=\count278
+\c@bbx:relatedcount=\count365
+\c@bbx:relatedtotal=\count366
 ))))
 Package biblatex Info: Trying to load citation style 'ieee'...
 Package biblatex Info: ... file 'ieee.cbx' found.
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/biblatex-ieee/ieee.cbx
-File: ieee.cbx 2019/06/19 v1.3a biblatex citation style
+File: ieee.cbx 2020/02/26 v1.3b biblatex citation style
 Package biblatex Info: Trying to load citation style 'numeric-comp'...
 Package biblatex Info: ... file 'numeric-comp.cbx' found.
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/biblatex/cbx/numeric-comp.cbx
 File: numeric-comp.cbx 2019/12/01 v3.14 biblatex citation style (PK/MW)
-\c@cbx@tempcnta=\count279
-\c@cbx@tempcntb=\count280
+\c@cbx@tempcnta=\count367
+\c@cbx@tempcntb=\count368
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
 Package biblatex Info: Redefining '\footcite'.
@@ -299,19 +300,26 @@ Package biblatex Info: ... file 'biblatex.cfg' found.
 (/opt/texlive/texdir/texmf-dist/tex/latex/biblatex/biblatex.cfg
 File: biblatex.cfg 
 ))
-\@quotelevel=\count281
-\@quotereset=\count282
+\@quotelevel=\count369
+\@quotereset=\count370
 
+(/opt/texlive/texdir/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
+File: l3backend-pdfmode.def 2020-08-07 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count371
+\l__pdf_internal_box=\box45
+)
 (./biblatex.aux)
 \openout1 = `biblatex.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
 LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 4.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 4.
 LaTeX Font Info:    ... okay on input line 4.
 LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 4.
 LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 4.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 4.
 LaTeX Font Info:    ... okay on input line 4.
 LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 4.
 LaTeX Font Info:    ... okay on input line 4.
@@ -343,17 +351,17 @@ Package logreq Info: Writing requests to 'biblatex.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 7723 strings out of 492163
- 145679 string characters out of 6127188
- 592080 words of memory out of 5000000
- 12080 multiletter control sequences out of 15000+600000
- 4591 words of font info for 17 fonts, out of 8000000 for 9000
+ 7860 strings out of 480893
+ 149493 string characters out of 5910023
+ 771515 words of memory out of 5000000
+ 23457 multiletter control sequences out of 15000+600000
+ 536039 words of font info for 32 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 40i,4n,45p,880b,1139s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 40i,4n,45p,880b,1136s stack positions out of 5000i,500n,10000p,200000b,80000s
 </opt/texlive/texdir/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></o
 pt/texlive/texdir/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></opt/tex
 live/texdir/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on biblatex.pdf (1 page, 33342 bytes).
+Output written on biblatex.pdf (1 page, 33353 bytes).
 PDF statistics:
  20 PDF objects out of 1000 (max. 8388607)
  13 compressed objects within 1 object stream
